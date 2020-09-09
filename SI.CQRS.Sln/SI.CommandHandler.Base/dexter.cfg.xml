@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<dexter.configuration>
+  <dexter-settings writeEventLog="0" writeErrorLog="1">
+    <setting key="conn-key">main</setting>
+    <setting key="conn-string-key">connStringSqlCache</setting>
+    <setting key="connTypeName">npgsql</setting>
+    <setting key="connStringName">connStringPgSql</setting>
+
+    <setting key="connStringSqlCache">Data Source=.\SQLEXPRESS;Initial Catalog=SimpleCacheServerTestDb;Integrated Security=SSPI;</setting>
+    <setting key="connStringSql">data source=.\SQLEXPRESS;initial catalog=FileStoreDbTest;integrated security=True;</setting>
+    <setting key="connStringMySql">data source=127.0.0.1;initial catalog=FileStoreDbTest;user id=root;password=***;</setting>
+    <setting key="connStringPgSql">server=127.0.0.1;Database=servicesDb;user id=postgres;password=123456;</setting>
+    <setting key="connStringOraMngd">
+      Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=127.0.0.1)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)));User Id=HR;Password=***;
+    </setting>
+  </dexter-settings>
+  <dexter.configs writeEventLog="0" writeErrorLog="1">
+    <dexter>
+      <add name="oledb"
+           typename="System.Data.OleDb.OleDbConnection"
+           namespace="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+           dialect="OleDb" />
+      <add name="mysql"
+           typename="MySql.Data.MySqlClient.MySqlConnection"
+           namespace="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d"
+           dialect="MySql" />
+
+      <add name="oracle_net-4_112_3"
+           typename="Oracle.DataAccess.Client.OracleConnection"
+           namespace="Oracle.DataAccess, Version=4.112.3.0, Culture=neutral, PublicKeyToken=89b483f429c47342"
+           dialect="Oracle" />
+
+      <add name="oracle"
+           typename="Oracle.ManagedDataAccess.Client.OracleConnection"
+           namespace="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342"
+           dialect="Oracle" />
+
+      <add name="sql"
+           typename="System.Data.SqlClient.SqlConnection"
+           namespace="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+           dialect="Sql" />
+
+      <add name="oledb"
+           typename="System.Data.OleDb.OleDbConnection"
+           namespace="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+           dialect="OleDb" />
+
+      <add name="odbc"
+           typename="System.Data.Odbc.OdbcConnection"
+           namespace="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+           dialect="Odbc" />
+
+      <add name="sqlite"
+           typename="System.Data.SQLite.SQLiteConnection"
+           namespace="System.Data.SQLite, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139"
+           dialect="SQLite" />
+
+      <add name="npgsql"
+           typename="Npgsql.NpgsqlConnection"
+           namespace="Npgsql, Version=2.0.14.3, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7"
+           dialect="Npgsql" />
+    </dexter>
+  </dexter.configs>
+</dexter.configuration>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SI.CommandBus</name>
+    </assembly>
+    <members>
+        <member name="M:SI.CommandBus.CommandBus.Send``2(``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="TCommand"></typeparam>
+            <typeparam name="TCommandResult"></typeparam>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
