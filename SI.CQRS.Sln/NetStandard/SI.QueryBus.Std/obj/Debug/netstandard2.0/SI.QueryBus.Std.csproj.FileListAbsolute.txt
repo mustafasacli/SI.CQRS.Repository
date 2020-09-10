@@ -12,3 +12,17 @@ D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.csproj.CopyComplete
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.dll
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Std.deps.json
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.Query.Core.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Core.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Core.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.Query.Core.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.csprojAssemblyReference.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.AssemblyInfoInputs.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.AssemblyInfo.cs
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.csproj.CoreCompileInputs.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.csproj.CopyComplete
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.pdb

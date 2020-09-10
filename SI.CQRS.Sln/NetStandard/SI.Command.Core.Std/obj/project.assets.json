@@ -180,17 +180,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\": {}
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.Command.Core.Std\\SI.Command.Core.Std.csproj",
+      "projectUniqueName": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.Command.Core.Std\\SI.Command.Core.Std.csproj",
       "projectName": "SI.Command.Core.Std",
-      "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.Command.Core.Std\\SI.Command.Core.Std.csproj",
+      "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.Command.Core.Std\\SI.Command.Core.Std.csproj",
       "packagesPath": "C:\\Users\\mustafa.sacli\\.nuget\\packages\\",
-      "outputPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.Command.Core.Std\\obj\\",
+      "outputPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.Command.Core.Std\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\mustafa.sacli\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -233,7 +237,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

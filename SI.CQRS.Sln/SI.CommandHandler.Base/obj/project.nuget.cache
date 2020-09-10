@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "jqmVSUOYFb7+JbZeDZ0mECobVI8urQ9MBBZKAdlIyyYAi8cLIN2WJRx41bOctcOPj/va16bsws1cL3hzkq9xxw==",
+  "dgSpecHash": "zKbhdrW57Bj9lwhcVPd1wI2CEkT0/IGfaI99JbetM+cODKxq19WsAAVZwuUzwLgJDhk4Tf0lLhNxqt9I83Q8uA==",
   "success": true,
-  "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandHandler.Base\\SI.CommandHandler.Base.csproj",
+  "projectFilePath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandHandler.Base\\SI.CommandHandler.Base.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mustafa.sacli\\.nuget\\packages\\mst.dextercfg.dll\\1.3.0\\mst.dextercfg.dll.1.3.0.nupkg.sha512",
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simplefilelogging.dll\\2.4.0\\simplefilelogging.dll.2.4.0.nupkg.sha512",
     "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simpleinfra.common.response.dll\\1.3.0\\simpleinfra.common.response.dll.1.3.0.nupkg.sha512"
   ],

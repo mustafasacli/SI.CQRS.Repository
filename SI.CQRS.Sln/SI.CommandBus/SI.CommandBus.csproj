@@ -14,7 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SI.Command.Core\SI.Command.Core.csproj" />
     <ProjectReference Include="..\SI.CommandBus.Core\SI.CommandBus.Core.csproj" />
     <ProjectReference Include="..\SI.CommandHandler.Factory\SI.CommandHandler.Factory.csproj" />
   </ItemGroup>

@@ -10,3 +10,15 @@ D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Co
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.csproj.CopyComplete
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.dll
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\bin\Debug\netstandard2.0\SI.CommandBus.Core.Std.deps.json
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\bin\Debug\netstandard2.0\SI.CommandBus.Core.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\bin\Debug\netstandard2.0\SI.CommandBus.Core.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\bin\Debug\netstandard2.0\SI.Command.Core.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\bin\Debug\netstandard2.0\SI.Command.Core.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.csprojAssemblyReference.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.AssemblyInfoInputs.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.AssemblyInfo.cs
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.csproj.CoreCompileInputs.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.csproj.CopyComplete
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.CommandBus.Core.Std\obj\Debug\netstandard2.0\SI.CommandBus.Core.Std.pdb

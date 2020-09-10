@@ -9,11 +9,6 @@
     <DocumentationFile>..\Output\SI.CommandHandler.Factory.xml</DocumentationFile>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\SI.Command.Core\SI.Command.Core.csproj" />
-    <ProjectReference Include="..\SI.CommandHandler.Core\SI.CommandHandler.Core.csproj" />
-  </ItemGroup>
-
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="rd /s /q &quot;$(ProjectDir)obj\Debug&quot;&#xD;&#xA;rd /s /q &quot;$(ProjectDir)obj\Release&quot;&#xD;&#xA;rd /s /q &quot;$(ProjectDir)bin\Debug&quot;&#xD;&#xA;rd /s /q &quot;$(ProjectDir)bin\Release&quot;&#xD;&#xA;rd /s /q &quot;$(ProjectDir)bin\*&quot;&#xD;&#xA;rd /s /q &quot;$(ProjectDir)obj\*&quot;" />
   </Target>
