@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SI.Query.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SI.Query.Core.IQuery`1">
+            <summary>
+            Defines the <see cref="T:SI.Query.Core.IQuery`1" />.
+            </summary>
+            <typeparam name="TResult">.</typeparam>
+        </member>
+        <member name="T:SI.Query.Core.IQueryResult">
+            <summary>
+            Defines the <see cref="T:SI.Query.Core.IQueryResult" />.
+            </summary>
+        </member>
+    </members>
+</doc>

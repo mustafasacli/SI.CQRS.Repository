@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "94GuphqAeOxJMzrW4g2BX5HdzI5CCv5mm5mCKBDJ41dpvpp8YgDfNj7Gs7wa26x2UguswkwzBxBEUu5cJSjpHg==",
+  "dgSpecHash": "M5dp7pEgA/+1x/QXZYnqpnmfULX49x8l3qADghu6QrVyELvK2GyOzSyM09z4aT9n8rUxxPm1XDZwc9WILFHvXw==",
   "success": true,
-  "projectFilePath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryBus\\SI.QueryBus.csproj",
+  "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryBus\\SI.QueryBus.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,0 +1,14 @@
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Std.deps.json
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.Query.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.QueryBus.Core.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\bin\Debug\netstandard2.0\SI.Query.Core.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.csprojAssemblyReference.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.AssemblyInfoInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.AssemblyInfo.cs
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.csproj.CoreCompileInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.csproj.CopyComplete
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetStandard\SI.QueryBus.Std\obj\Debug\netstandard2.0\SI.QueryBus.Std.pdb

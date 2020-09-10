@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\SI.QueryHandler.Factory.csproj": {}
+    "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\SI.QueryHandler.Factory.csproj": {}
   },
   "projects": {
-    "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj": {
+    "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj",
+        "projectUniqueName": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj",
         "projectName": "SI.Query.Core",
-        "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj",
+        "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj",
         "packagesPath": "C:\\Users\\mustafa.sacli\\.nuget\\packages\\",
-        "outputPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\obj\\",
+        "outputPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\mustafa.sacli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -58,22 +55,19 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj": {
+    "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj",
+        "projectUniqueName": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj",
         "projectName": "SI.QueryHandler.Core",
-        "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj",
+        "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj",
         "packagesPath": "C:\\Users\\mustafa.sacli\\.nuget\\packages\\",
-        "outputPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\obj\\",
+        "outputPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\mustafa.sacli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -88,8 +82,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj": {
-                "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj"
+              "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj": {
+                "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj"
               }
             }
           }
@@ -120,22 +114,19 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\SI.QueryHandler.Factory.csproj": {
+    "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\SI.QueryHandler.Factory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\SI.QueryHandler.Factory.csproj",
+        "projectUniqueName": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\SI.QueryHandler.Factory.csproj",
         "projectName": "SI.QueryHandler.Factory",
-        "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\SI.QueryHandler.Factory.csproj",
+        "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\SI.QueryHandler.Factory.csproj",
         "packagesPath": "C:\\Users\\mustafa.sacli\\.nuget\\packages\\",
-        "outputPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\obj\\",
+        "outputPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Factory\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\mustafa.sacli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -150,11 +141,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj": {
-                "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj"
+              "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj": {
+                "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Query.Core\\SI.Query.Core.csproj"
               },
-              "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj": {
-                "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj"
+              "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj": {
+                "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.QueryHandler.Core\\SI.QueryHandler.Core.csproj"
               }
             }
           }
@@ -185,7 +176,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

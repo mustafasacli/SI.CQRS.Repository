@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SI.CommandBus.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SI.CommandBus.Core.ICommandBus">
+            <summary>
+            Defines the <see cref="T:SI.CommandBus.Core.ICommandBus" />.
+            </summary>
+        </member>
+        <member name="M:SI.CommandBus.Core.ICommandBus.Send``2(``0)">
+            <summary>
+            The Send.
+            </summary>
+            <typeparam name="TCommand">.</typeparam>
+            <typeparam name="TCommandResult">.</typeparam>
+            <param name="command">The command<see cref="!:TCommand"/>.</param>
+            <returns>The <see cref="T:SimpleInfra.Common.Response.SimpleResponse`1"/>.</returns>
+        </member>
+    </members>
+</doc>

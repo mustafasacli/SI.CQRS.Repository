@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SI.QueryHandler.Base</name>
+    </assembly>
+    <members>
+        <member name="T:SI.QueryHandler.Base.BaseQueryHandler`2">
+            <summary>
+            Defines the <see cref="T:SI.QueryHandler.Base.BaseQueryHandler`2" />.
+            </summary>
+            <typeparam name="TQuery">.</typeparam>
+            <typeparam name="TResult">.</typeparam>
+        </member>
+        <member name="M:SI.QueryHandler.Base.BaseQueryHandler`2.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SI.QueryHandler.Base.BaseQueryHandler`2"/> class.
+            </summary>
+        </member>
+        <member name="M:SI.QueryHandler.Base.BaseQueryHandler`2.Handle(`0)">
+            <summary>
+            The Handle.
+            </summary>
+            <param name="query">The query<see cref="!:TQuery"/>.</param>
+            <returns>The <see cref="!:TResult"/>.</returns>
+        </member>
+        <member name="M:SI.QueryHandler.Base.BaseQueryHandler`2.GetDbConnection">
+            <summary>
+            The GetDbConnection.
+            </summary>
+            <returns>.</returns>
+        </member>
+        <member name="P:SI.QueryHandler.Base.BaseQueryHandler`2.DayLogger">
+            <summary>
+            Gets the DayLogger.
+            </summary>
+        </member>
+        <member name="P:SI.QueryHandler.Base.BaseQueryHandler`2.HourLogger">
+            <summary>
+            Gets the HourLogger.
+            </summary>
+        </member>
+        <member name="P:SI.QueryHandler.Base.BaseQueryHandler`2.NoneLogger">
+            <summary>
+            Gets the NoneLogger.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -218,21 +218,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandBus.Core\\SI.CommandBus.Core.csproj",
+      "projectUniqueName": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandBus.Core\\SI.CommandBus.Core.csproj",
       "projectName": "SI.CommandBus.Core",
-      "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandBus.Core\\SI.CommandBus.Core.csproj",
+      "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandBus.Core\\SI.CommandBus.Core.csproj",
       "packagesPath": "C:\\Users\\mustafa.sacli\\.nuget\\packages\\",
-      "outputPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandBus.Core\\obj\\",
+      "outputPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandBus.Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\mustafa.sacli\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -247,8 +243,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Command.Core\\SI.Command.Core.csproj": {
-              "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Command.Core\\SI.Command.Core.csproj"
+            "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Command.Core\\SI.Command.Core.csproj": {
+              "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.Command.Core\\SI.Command.Core.csproj"
             }
           }
         }
@@ -283,7 +279,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   },

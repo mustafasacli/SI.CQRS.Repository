@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "j5n29e7eBq9hpE7JJ4odz3j9vg9Kk503QtSbSHcTCc/01zNXSjbmrIEYHfNyk7r7ZcrsxrN146URtuKJGz09Ag==",
+  "dgSpecHash": "8lVQoMciBu1WTAM1cHYK5TDbz5+uTgqdvtCMcnaYMo1xB0dO1ELDmW4bLCBkb1dqvMJQvYH13bsOgUoS0omLuA==",
   "success": true,
-  "projectFilePath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandHandler.Factory\\SI.CommandHandler.Factory.csproj",
+  "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\SI.CommandHandler.Factory\\SI.CommandHandler.Factory.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simpleinfra.common.response.dll\\1.3.0\\simpleinfra.common.response.dll.1.3.0.nupkg.sha512"
   ],
   "logs": [
