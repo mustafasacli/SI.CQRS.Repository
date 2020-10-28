@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fKU5AHbETRTNjnfQXTp0zsfXha6dTrmgjKTvPjvcaS4jFenbsty1GMxzVHl7pIcqAF4QowtmxAG8oFzPIxbrzw==",
+  "dgSpecHash": "LMdQfwH/9ytd+ODubxyLWCvLlX4BRwJEQ5j4A5kbMGeMTW8sgNNKtUpz94G4EKbjNTKLWEii5b/JSEeZaUymeA==",
   "success": true,
   "projectFilePath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.QueryHandler.Base.Std\\SI.QueryHandler.Base.Std.csproj",
   "expectedPackageFiles": [

@@ -24,7 +24,6 @@
         {
             var handler =
                 CommandHandlerFactory.GetCommandHandler<TCommand, TCommandResult>();
-            //throw new NotImplementedException();
             var cmdResult = handler.Handle(command);
             return cmdResult;
         }

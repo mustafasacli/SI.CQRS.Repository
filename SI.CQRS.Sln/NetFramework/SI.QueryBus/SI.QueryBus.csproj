@@ -54,6 +54,14 @@
       <Project>{EF4AF97B-AE4B-4A1A-9E48-E02891882A44}</Project>
       <Name>SI.QueryBus.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SI.QueryHandler.Core\SI.QueryHandler.Core.csproj">
+      <Project>{0F8852BA-9BDF-4205-8F44-1BF9D8A4D39E}</Project>
+      <Name>SI.QueryHandler.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SI.QueryHandler.Factory\SI.QueryHandler.Factory.csproj">
+      <Project>{8D4E2A6B-F2E9-4E0E-AF53-C9D89F0AC785}</Project>
+      <Name>SI.QueryHandler.Factory</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

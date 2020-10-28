@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eG1vWKuWS1x3TlWJX0R7eTHoTc9A6jz/efFqm32rzH5fz3s9tdmcksL/pHi+cxzER8KSGGk+OpWeLvdnPP0TCQ==",
+  "dgSpecHash": "h8/LF2wjeB9yj1eutnEGo11cqhRdA7iH5vUTKVhr8RFfIfSo/JVKvu59G9ABw7EC/uPJ0IrzTgikM/G5ISHI6A==",
   "success": true,
   "projectFilePath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Factory.Std\\SI.CommandHandler.Factory.Std.csproj",
   "expectedPackageFiles": [
