@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\src\QueryHandler.Base\BaseQueryHandler.cs" Link="BaseQueryHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Mst.DexterCfg.dll" Version="1.3.0" />
     <PackageReference Include="SimpleFileLogging.dll" Version="2.4.0" />
   </ItemGroup>

@@ -45,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICommandBus.cs" />
+    <Compile Include="..\..\src\CommandBus.Core\ICommandBus.cs">
+      <Link>ICommandBus.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

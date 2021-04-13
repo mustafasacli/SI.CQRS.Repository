@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommandHandlerFactory.cs" />
+    <Compile Include="..\..\src\CommandHandler.Factory\CommandHandlerFactory.cs">
+      <Link>CommandHandlerFactory.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

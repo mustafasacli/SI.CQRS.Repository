@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\src\QueryHandler.Factory\QueryHandlerFactory.cs" Link="QueryHandlerFactory.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SI.QueryHandler.Core.Std\SI.QueryHandler.Core.Std.csproj" />
   </ItemGroup>
 

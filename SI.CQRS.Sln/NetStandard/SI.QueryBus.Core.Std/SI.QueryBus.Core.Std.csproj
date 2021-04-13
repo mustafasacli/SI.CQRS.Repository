@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\src\QueryBus.Core\IQueryBus.cs" Link="IQueryBus.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SI.Query.Core.Std\SI.Query.Core.Std.csproj" />
   </ItemGroup>
 

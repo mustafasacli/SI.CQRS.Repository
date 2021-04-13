@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IQuery.cs" />
-    <Compile Include="IQueryResult.cs" />
+    <Compile Include="..\..\src\Query.Core\IQuery.cs">
+      <Link>IQuery.cs</Link>
+    </Compile>
+    <Compile Include="..\..\src\Query.Core\IQueryResult.cs">
+      <Link>IQueryResult.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

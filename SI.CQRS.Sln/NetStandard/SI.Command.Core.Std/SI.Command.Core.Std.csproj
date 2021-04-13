@@ -4,4 +4,9 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="..\..\src\Command.Core\ICommand.cs" Link="ICommand.cs" />
+    <Compile Include="..\..\src\Command.Core\ICommandResult.cs" Link="ICommandResult.cs" />
+  </ItemGroup>
+
 </Project>

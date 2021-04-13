@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IQueryBus.cs" />
+    <Compile Include="..\..\src\QueryBus.Core\IQueryBus.cs">
+      <Link>IQueryBus.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

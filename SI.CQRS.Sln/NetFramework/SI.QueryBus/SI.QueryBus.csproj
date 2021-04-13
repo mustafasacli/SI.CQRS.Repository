@@ -42,8 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\src\QueryBus\QueryBus.cs">
+      <Link>QueryBus.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QueryBus.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SI.Query.Core\SI.Query.Core.csproj">

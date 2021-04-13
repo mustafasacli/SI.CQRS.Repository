@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICommand.cs" />
-    <Compile Include="ICommandResult.cs" />
+    <Compile Include="..\..\src\Command.Core\ICommand.cs">
+      <Link>ICommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\src\Command.Core\ICommandResult.cs">
+      <Link>ICommandResult.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

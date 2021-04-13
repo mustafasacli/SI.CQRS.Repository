@@ -45,7 +45,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICommandHandler.cs" />
+    <Compile Include="..\..\src\CommandHandler.Core\ICommandHandler.cs">
+      <Link>ICommandHandler.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

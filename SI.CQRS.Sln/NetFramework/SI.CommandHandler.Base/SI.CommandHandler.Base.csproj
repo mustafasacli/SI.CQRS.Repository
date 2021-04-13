@@ -51,7 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseCommandHandler.cs" />
+    <Compile Include="..\..\src\CommandHandler.Base\BaseCommandHandler.cs">
+      <Link>BaseCommandHandler.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -48,7 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseQueryHandler.cs" />
+    <Compile Include="..\..\src\QueryHandler.Base\BaseQueryHandler.cs">
+      <Link>BaseQueryHandler.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

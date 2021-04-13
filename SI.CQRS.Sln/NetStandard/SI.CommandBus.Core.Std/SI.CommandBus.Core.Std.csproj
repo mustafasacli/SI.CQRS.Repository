@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="..\..\src\CommandBus.Core\ICommandBus.cs" Link="ICommandBus.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="SimpleInfra.Common.Response.dll" Version="1.3.0" />
   </ItemGroup>
 
