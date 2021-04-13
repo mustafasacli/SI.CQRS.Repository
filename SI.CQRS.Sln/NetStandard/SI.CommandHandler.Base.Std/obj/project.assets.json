@@ -286,37 +286,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Base.Std\\SI.CommandHandler.Base.Std.csproj",
+      "projectUniqueName": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Base.Std\\SI.CommandHandler.Base.Std.csproj",
       "projectName": "SI.CommandHandler.Base.Std",
-      "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Base.Std\\SI.CommandHandler.Base.Std.csproj",
+      "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Base.Std\\SI.CommandHandler.Base.Std.csproj",
       "packagesPath": "C:\\Users\\mustafa.sacli\\.nuget\\packages\\",
-      "outputPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Base.Std\\obj\\",
+      "outputPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Base.Std\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\mustafa.sacli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\VistaDB 6.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Core.Std\\SI.CommandHandler.Core.Std.csproj": {
-              "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Core.Std\\SI.CommandHandler.Core.Std.csproj"
+            "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Core.Std\\SI.CommandHandler.Core.Std.csproj": {
+              "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.CommandHandler.Core.Std\\SI.CommandHandler.Core.Std.csproj"
             }
           }
         }
@@ -329,6 +327,7 @@
     },
     "frameworks": {
       "netstandard2.0": {
+        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Mst.DexterCfg.dll": {
             "target": "Package",
@@ -359,7 +358,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
