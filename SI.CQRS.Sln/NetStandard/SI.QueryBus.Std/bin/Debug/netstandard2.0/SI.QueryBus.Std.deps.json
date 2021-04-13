@@ -10,7 +10,8 @@
       "SI.QueryBus.Std/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "SI.QueryBus.Core.Std": "1.0.0"
+          "SI.QueryBus.Core.Std": "1.0.0",
+          "SI.QueryHandler.Factory.Std": "1.0.0"
         },
         "runtime": {
           "SI.QueryBus.Std.dll": {}
@@ -33,6 +34,22 @@
         },
         "runtime": {
           "SI.QueryBus.Core.Std.dll": {}
+        }
+      },
+      "SI.QueryHandler.Core.Std/1.0.0": {
+        "dependencies": {
+          "SI.Query.Core.Std": "1.0.0"
+        },
+        "runtime": {
+          "SI.QueryHandler.Core.Std.dll": {}
+        }
+      },
+      "SI.QueryHandler.Factory.Std/1.0.0": {
+        "dependencies": {
+          "SI.QueryHandler.Core.Std": "1.0.0"
+        },
+        "runtime": {
+          "SI.QueryHandler.Factory.Std.dll": {}
         }
       }
     }
@@ -63,6 +80,16 @@
       "sha512": ""
     },
     "SI.QueryBus.Core.Std/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SI.QueryHandler.Core.Std/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SI.QueryHandler.Factory.Std/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

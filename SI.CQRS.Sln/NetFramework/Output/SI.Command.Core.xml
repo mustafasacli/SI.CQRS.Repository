@@ -4,16 +4,5 @@
         <name>SI.Command.Core</name>
     </assembly>
     <members>
-        <member name="T:SI.Command.Core.ICommand`1">
-            <summary>
-            Defines the <see cref="T:SI.Command.Core.ICommand`1" />.
-            </summary>
-            <typeparam name="TCommandResult">.</typeparam>
-        </member>
-        <member name="T:SI.Command.Core.ICommandResult">
-            <summary>
-            Defines the <see cref="T:SI.Command.Core.ICommandResult" />.
-            </summary>
-        </member>
     </members>
 </doc>

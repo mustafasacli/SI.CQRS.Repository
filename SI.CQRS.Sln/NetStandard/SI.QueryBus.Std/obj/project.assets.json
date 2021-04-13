@@ -48,6 +48,32 @@
         "runtime": {
           "bin/placeholder/SI.QueryBus.Core.Std.dll": {}
         }
+      },
+      "SI.QueryHandler.Core.Std/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SI.Query.Core.Std": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SI.QueryHandler.Core.Std.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SI.QueryHandler.Core.Std.dll": {}
+        }
+      },
+      "SI.QueryHandler.Factory.Std/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SI.QueryHandler.Core.Std": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SI.QueryHandler.Factory.Std.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SI.QueryHandler.Factory.Std.dll": {}
+        }
       }
     }
   },
@@ -205,12 +231,23 @@
       "type": "project",
       "path": "../SI.QueryBus.Core.Std/SI.QueryBus.Core.Std.csproj",
       "msbuildProject": "../SI.QueryBus.Core.Std/SI.QueryBus.Core.Std.csproj"
+    },
+    "SI.QueryHandler.Core.Std/1.0.0": {
+      "type": "project",
+      "path": "../SI.QueryHandler.Core.Std/SI.QueryHandler.Core.Std.csproj",
+      "msbuildProject": "../SI.QueryHandler.Core.Std/SI.QueryHandler.Core.Std.csproj"
+    },
+    "SI.QueryHandler.Factory.Std/1.0.0": {
+      "type": "project",
+      "path": "../SI.QueryHandler.Factory.Std/SI.QueryHandler.Factory.Std.csproj",
+      "msbuildProject": "../SI.QueryHandler.Factory.Std/SI.QueryHandler.Factory.Std.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "SI.QueryBus.Core.Std >= 1.0.0"
+      "SI.QueryBus.Core.Std >= 1.0.0",
+      "SI.QueryHandler.Factory.Std >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -243,6 +280,9 @@
           "projectReferences": {
             "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.QueryBus.Core.Std\\SI.QueryBus.Core.Std.csproj": {
               "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.QueryBus.Core.Std\\SI.QueryBus.Core.Std.csproj"
+            },
+            "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.QueryHandler.Factory.Std\\SI.QueryHandler.Factory.Std.csproj": {
+              "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetStandard\\SI.QueryHandler.Factory.Std\\SI.QueryHandler.Factory.Std.csproj"
             }
           }
         }
