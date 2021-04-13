@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\Command.Core\ICommand.cs" Link="ICommand.cs" />
+    <Compile Include="..\..\src\Command.Core\ICommandResult.cs" Link="ICommandResult.cs" />
+  </ItemGroup>
+
+</Project>

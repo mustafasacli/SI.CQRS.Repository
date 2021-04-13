@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\QueryBus\QueryBus.cs" Link="QueryBus.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SI.QueryBus.Core.Std\SI.QueryBus.Core.Std.csproj" />
+    <ProjectReference Include="..\SI.QueryHandler.Factory.Std\SI.QueryHandler.Factory.Std.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\QueryHandler.Base\BaseQueryHandler.cs" Link="BaseQueryHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mst.DexterCfg.dll" Version="1.3.0" />
+    <PackageReference Include="SimpleFileLogging.dll" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SI.Query.Core.Std\SI.Query.Core.Std.csproj" />
+    <ProjectReference Include="..\SI.QueryHandler.Core.Std\SI.QueryHandler.Core.Std.csproj" />
+  </ItemGroup>
+
+</Project>

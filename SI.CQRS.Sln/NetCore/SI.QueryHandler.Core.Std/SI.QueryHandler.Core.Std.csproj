@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\src\QueryHandler.Core\IQueryHandler.cs" Link="IQueryHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SI.Query.Core.Std\SI.Query.Core.Std.csproj" />
+  </ItemGroup>
+
+</Project>

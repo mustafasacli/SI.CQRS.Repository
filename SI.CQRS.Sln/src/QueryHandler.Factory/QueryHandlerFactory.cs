@@ -39,8 +39,8 @@ namespace SI.QueryHandler.Factory
         where TQuery : class, IQuery<TQueryResult>
         where TQueryResult : class, IQueryResult
         {
-            var commandHandlerType = queryHandlerRegs[typeof(TQuery).FullName];
-            var instance = queryHandlerInstances.GetOrAdd(commandHandlerType,
+            var queryHandlerType = queryHandlerRegs[typeof(TQuery).FullName];
+            var instance = queryHandlerInstances.GetOrAdd(queryHandlerType,
                 (q) =>
                 {
                     var ins = Activator.CreateInstance(q);
