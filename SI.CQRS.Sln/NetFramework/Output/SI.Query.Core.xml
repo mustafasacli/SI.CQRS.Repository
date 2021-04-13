@@ -6,13 +6,13 @@
     <members>
         <member name="T:SI.Query.Core.IQuery`1">
             <summary>
-            Defines the <see cref="T:SI.Query.Core.IQuery`1" />.
+            Defines the <see cref="T:SI.Query.Core.IQuery`1"/>.
             </summary>
             <typeparam name="TResult">.</typeparam>
         </member>
         <member name="T:SI.Query.Core.IQueryResult">
             <summary>
-            Defines the <see cref="T:SI.Query.Core.IQueryResult" />.
+            Defines the <see cref="T:SI.Query.Core.IQueryResult"/>.
             </summary>
         </member>
     </members>

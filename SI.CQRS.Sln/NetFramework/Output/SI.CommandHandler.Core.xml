@@ -6,7 +6,7 @@
     <members>
         <member name="T:SI.CommandHandler.Core.ICommandHandler`2">
             <summary>
-            Defines the <see cref="T:SI.CommandHandler.Core.ICommandHandler`2" />.
+            Defines the <see cref="T:SI.CommandHandler.Core.ICommandHandler`2"/>.
             </summary>
             <typeparam name="TCommand">.</typeparam>
             <typeparam name="TCommandResult">.</typeparam>

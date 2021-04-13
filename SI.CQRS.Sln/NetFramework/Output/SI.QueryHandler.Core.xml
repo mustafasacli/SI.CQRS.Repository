@@ -6,7 +6,7 @@
     <members>
         <member name="T:SI.QueryHandler.Core.IQueryHandler`2">
             <summary>
-            Defines the <see cref="T:SI.QueryHandler.Core.IQueryHandler`2" />.
+            Defines the <see cref="T:SI.QueryHandler.Core.IQueryHandler`2"/>.
             </summary>
             <typeparam name="TQuery">.</typeparam>
             <typeparam name="TResult">.</typeparam>
@@ -15,7 +15,7 @@
             <summary>
             The Handle.
             </summary>
-            <param name="query">The query<see cref="!:TQuery"/>.</param>
+            <param name="query">The query <see cref="!:TQuery"/>.</param>
             <returns>The <see cref="!:TResult"/>.</returns>
         </member>
     </members>

@@ -6,7 +6,7 @@
     <members>
         <member name="T:SI.QueryHandler.Factory.QueryHandlerFactory">
             <summary>
-            Defines the <see cref="T:SI.QueryHandler.Factory.QueryHandlerFactory" />.
+            Defines the <see cref="T:SI.QueryHandler.Factory.QueryHandlerFactory"/>.
             </summary>
         </member>
         <member name="F:SI.QueryHandler.Factory.QueryHandlerFactory.queryHandlerRegs">

@@ -6,7 +6,7 @@
     <members>
         <member name="T:SI.CommandBus.CommandBus">
             <summary>
-            Defines the <see cref="T:SI.CommandBus.CommandBus" />.
+            Defines the <see cref="T:SI.CommandBus.CommandBus"/>.
             </summary>
         </member>
         <member name="M:SI.CommandBus.CommandBus.Send``2(``0)">

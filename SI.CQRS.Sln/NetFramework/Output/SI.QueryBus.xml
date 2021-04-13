@@ -6,7 +6,7 @@
     <members>
         <member name="T:SI.QueryBus.QueryBus">
             <summary>
-            Defines the <see cref="T:SI.QueryBus.QueryBus" />.
+            Defines the <see cref="T:SI.QueryBus.QueryBus"/>.
             </summary>
         </member>
         <member name="M:SI.QueryBus.QueryBus.Send``2(``0)">
@@ -15,7 +15,7 @@
             </summary>
             <typeparam name="TQuery">.</typeparam>
             <typeparam name="TQueryResult">.</typeparam>
-            <param name="query">The query<see cref="!:TQuery"/>.</param>
+            <param name="query">The query <see cref="!:TQuery"/>.</param>
             <returns>The <see cref="!:TQueryResult"/>.</returns>
         </member>
     </members>
