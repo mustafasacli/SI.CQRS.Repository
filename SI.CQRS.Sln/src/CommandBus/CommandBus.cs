@@ -1,12 +1,12 @@
-﻿namespace SI.CommandBus
-{
-    using SI.Command.Core;
-    using SI.CommandBus.Core;
-    using SI.CommandHandler.Factory;
-    using SimpleInfra.Common.Response;
+﻿using SI.Command.Core;
+using SI.CommandBus.Core;
+using SI.CommandHandler.Factory;
+using SimpleInfra.Common.Response;
 
+namespace SI.CommandBus
+{
     /// <summary>
-    /// Defines the <see cref="CommandBus" />.
+    /// Defines the <see cref="CommandBus"/>.
     /// </summary>
     public class CommandBus : ICommandBus
     {

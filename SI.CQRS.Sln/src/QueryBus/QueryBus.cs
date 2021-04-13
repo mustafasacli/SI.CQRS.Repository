@@ -1,12 +1,12 @@
-﻿namespace SI.QueryBus
-{
-    using SI.Query.Core;
-    using SI.QueryBus.Core;
-    using SI.QueryHandler.Factory;
-    using System;
+﻿using SI.Query.Core;
+using SI.QueryBus.Core;
+using SI.QueryHandler.Factory;
+using System;
 
+namespace SI.QueryBus
+{
     /// <summary>
-    /// Defines the <see cref="QueryBus" />.
+    /// Defines the <see cref="QueryBus"/>.
     /// </summary>
     public class QueryBus : IQueryBus
     {
@@ -15,7 +15,7 @@
         /// </summary>
         /// <typeparam name="TQuery">.</typeparam>
         /// <typeparam name="TQueryResult">.</typeparam>
-        /// <param name="query">The query<see cref="TQuery"/>.</param>
+        /// <param name="query">The query <see cref="TQuery"/>.</param>
         /// <returns>The <see cref="TQueryResult"/>.</returns>
         public TQueryResult Send<TQuery, TQueryResult>(TQuery query)
              where TQueryResult : class, IQueryResult

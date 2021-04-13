@@ -1,15 +1,15 @@
-﻿namespace SI.QueryHandler.Base
-{
-    using Mst.DexterCfg.Factory;
-    using SI.Query.Core;
-    using SI.QueryHandler.Core;
-    using SimpleFileLogging;
-    using SimpleFileLogging.Enums;
-    using SimpleFileLogging.Interfaces;
-    using System.Data;
+﻿using Mst.DexterCfg.Factory;
+using SI.Query.Core;
+using SI.QueryHandler.Core;
+using SimpleFileLogging;
+using SimpleFileLogging.Enums;
+using SimpleFileLogging.Interfaces;
+using System.Data;
 
+namespace SI.QueryHandler.Base
+{
     /// <summary>
-    /// Defines the <see cref="BaseQueryHandler{TQuery, TResult}" />.
+    /// Defines the <see cref="BaseQueryHandler{TQuery, TResult}"/>.
     /// </summary>
     /// <typeparam name="TQuery">.</typeparam>
     /// <typeparam name="TResult">.</typeparam>
@@ -27,7 +27,7 @@
         /// <summary>
         /// The Handle.
         /// </summary>
-        /// <param name="query">The query<see cref="TQuery"/>.</param>
+        /// <param name="query">The query <see cref="TQuery"/>.</param>
         /// <returns>The <see cref="TResult"/>.</returns>
         public abstract TResult Handle(TQuery query);
 

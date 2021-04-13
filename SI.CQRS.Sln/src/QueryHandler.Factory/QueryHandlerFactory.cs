@@ -1,12 +1,12 @@
-﻿namespace SI.QueryHandler.Factory
-{
-    using SI.Query.Core;
-    using SI.QueryHandler.Core;
-    using System;
-    using System.Collections.Concurrent;
+﻿using SI.Query.Core;
+using SI.QueryHandler.Core;
+using System;
+using System.Collections.Concurrent;
 
+namespace SI.QueryHandler.Factory
+{
     /// <summary>
-    /// Defines the <see cref="QueryHandlerFactory" />.
+    /// Defines the <see cref="QueryHandlerFactory"/>.
     /// </summary>
     public class QueryHandlerFactory
     {

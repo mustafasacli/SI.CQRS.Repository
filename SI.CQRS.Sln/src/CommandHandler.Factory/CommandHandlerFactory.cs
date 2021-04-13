@@ -1,10 +1,10 @@
-﻿namespace SI.CommandHandler.Factory
-{
-    using SI.Command.Core;
-    using SI.CommandHandler.Core;
-    using System;
-    using System.Collections.Concurrent;
+﻿using SI.Command.Core;
+using SI.CommandHandler.Core;
+using System;
+using System.Collections.Concurrent;
 
+namespace SI.CommandHandler.Factory
+{
     /// <summary>
     /// Defines the <see cref="CommandHandlerFactory" />.
     /// </summary>

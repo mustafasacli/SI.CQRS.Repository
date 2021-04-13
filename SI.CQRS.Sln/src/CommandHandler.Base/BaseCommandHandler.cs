@@ -1,6 +1,4 @@
-﻿namespace SI.CommandHandler.Base
-{
-    using Mst.DexterCfg.Factory;
+﻿    using Mst.DexterCfg.Factory;
     using SI.Command.Core;
     using SI.CommandHandler.Core;
     using SimpleFileLogging;
@@ -9,6 +7,8 @@
     using SimpleInfra.Common.Response;
     using System.Data;
 
+namespace SI.CommandHandler.Base
+{
     /// <summary>
     /// Defines the <see cref="BaseCommandHandler{TCommand, TCommandResult}" />.
     /// </summary>

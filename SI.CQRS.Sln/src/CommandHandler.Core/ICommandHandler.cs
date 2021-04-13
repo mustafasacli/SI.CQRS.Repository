@@ -1,10 +1,10 @@
-﻿namespace SI.CommandHandler.Core
-{
-    using SI.Command.Core;
-    using SimpleInfra.Common.Response;
+﻿using SI.Command.Core;
+using SimpleInfra.Common.Response;
 
+namespace SI.CommandHandler.Core
+{
     /// <summary>
-    /// Defines the <see cref="ICommandHandler{TCommand, TCommandResult}" />.
+    /// Defines the <see cref="ICommandHandler{TCommand, TCommandResult}"/>.
     /// </summary>
     /// <typeparam name="TCommand">.</typeparam>
     /// <typeparam name="TCommandResult">.</typeparam>
