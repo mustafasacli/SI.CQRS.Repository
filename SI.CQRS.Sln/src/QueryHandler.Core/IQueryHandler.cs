@@ -1,4 +1,5 @@
 ﻿using SI.Query.Core;
+using SimpleInfra.Common.Response;
 
 namespace SI.QueryHandler.Core
 {
@@ -12,10 +13,17 @@ namespace SI.QueryHandler.Core
             where TResult : class, IQueryResult
     {
         /// <summary>
-        /// The Handle.
+        /// Handle query.
         /// </summary>
         /// <param name="query">The query <see cref="TQuery"/>.</param>
         /// <returns>The <see cref="TResult"/>.</returns>
         TResult Handle(TQuery query);
+
+        /// <summary>
+        /// Authorize query.
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        SimpleResponse Authorize(TQuery query);
     }
 }

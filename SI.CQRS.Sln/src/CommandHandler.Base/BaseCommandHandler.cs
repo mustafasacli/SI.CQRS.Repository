@@ -1,16 +1,16 @@
-﻿    using Mst.DexterCfg.Factory;
-    using SI.Command.Core;
-    using SI.CommandHandler.Core;
-    using SimpleFileLogging;
-    using SimpleFileLogging.Enums;
-    using SimpleFileLogging.Interfaces;
-    using SimpleInfra.Common.Response;
-    using System.Data;
+﻿using Mst.DexterCfg.Factory;
+using SI.Command.Core;
+using SI.CommandHandler.Core;
+using SimpleFileLogging;
+using SimpleFileLogging.Enums;
+using SimpleFileLogging.Interfaces;
+using SimpleInfra.Common.Response;
+using System.Data;
 
 namespace SI.CommandHandler.Base
 {
     /// <summary>
-    /// Defines the <see cref="BaseCommandHandler{TCommand, TCommandResult}" />.
+    /// Defines the <see cref="BaseCommandHandler{TCommand, TCommandResult}"/>.
     /// </summary>
     /// <typeparam name="TCommand">.</typeparam>
     /// <typeparam name="TCommandResult">.</typeparam>
@@ -27,7 +27,24 @@ namespace SI.CommandHandler.Base
         public abstract SimpleResponse<TCommandResult> Handle(TCommand command);
 
         /// <summary>
-        /// The GetDbConnection.
+        /// Validate command.
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        public abstract SimpleResponse Validate(TCommand command);
+
+        /// <summary>
+        /// Authorize command.
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        public virtual SimpleResponse Authorize(TCommand command)
+        {
+            return new SimpleResponse();
+        }
+
+        /// <summary>
+        /// Gets DbConnection.
         /// </summary>
         /// <returns>.</returns>
         protected virtual IDbConnection GetDbConnection()
@@ -40,8 +57,18 @@ namespace SI.CommandHandler.Base
         }
 
         /// <summary>
-        /// Gets the DayLogger
-        /// Logger for Day format..
+        /// Gets DbConnection.
+        /// </summary>
+        /// <returns>.</returns>
+        protected virtual IDbConnection GetDbConnection(string connTypeName, string connStringName)
+        {
+            IDbConnection conn = DxCfgConnectionFactory.Instance.GetConnection(connTypeName);
+            conn.ConnectionString = DxCfgConnectionFactory.Instance[connStringName];
+            return conn;
+        }
+
+        /// <summary>
+        /// Gets the DayLogger Logger for Day format..
         /// </summary>
         protected ISimpleLogger DayLogger
         {
@@ -54,8 +81,7 @@ namespace SI.CommandHandler.Base
         }
 
         /// <summary>
-        /// Gets the HourLogger
-        /// Logger for Hour format..
+        /// Gets the HourLogger Logger for Hour format..
         /// </summary>
         protected ISimpleLogger HourLogger
         {
@@ -68,8 +94,7 @@ namespace SI.CommandHandler.Base
         }
 
         /// <summary>
-        /// Gets the NoneLogger
-        /// Logger has no format..
+        /// Gets the NoneLogger Logger has no format..
         /// </summary>
         protected ISimpleLogger NoneLogger
         {

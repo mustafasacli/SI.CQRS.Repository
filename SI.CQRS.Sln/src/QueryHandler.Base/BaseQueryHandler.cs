@@ -4,6 +4,7 @@ using SI.QueryHandler.Core;
 using SimpleFileLogging;
 using SimpleFileLogging.Enums;
 using SimpleFileLogging.Interfaces;
+using SimpleInfra.Common.Response;
 using System.Data;
 
 namespace SI.QueryHandler.Base
@@ -25,14 +26,25 @@ namespace SI.QueryHandler.Base
         }
 
         /// <summary>
-        /// The Handle.
+        /// Handle query.
         /// </summary>
         /// <param name="query">The query <see cref="TQuery"/>.</param>
         /// <returns>The <see cref="TResult"/>.</returns>
         public abstract TResult Handle(TQuery query);
 
         /// <summary>
-        /// The GetDbConnection.
+        /// Authorize query.
+        /// </summary>
+        /// <param name="query"></param>
+        /// <returns></returns>
+        public virtual SimpleResponse Authorize(TQuery query)
+        {
+            return new SimpleResponse();
+        }
+
+
+        /// <summary>
+        /// Gets DbConnection.
         /// </summary>
         /// <returns>.</returns>
         protected virtual IDbConnection GetDbConnection()
@@ -41,6 +53,17 @@ namespace SI.QueryHandler.Base
             IDbConnection conn = DxCfgConnectionFactory.Instance.GetConnection(connTypeKey);
             var connstrKey = DxCfgConnectionFactory.Instance["connStringName"];
             conn.ConnectionString = DxCfgConnectionFactory.Instance[connstrKey];
+            return conn;
+        }
+
+        /// <summary>
+        /// Gets DbConnection.
+        /// </summary>
+        /// <returns>.</returns>
+        protected virtual IDbConnection GetDbConnection(string connTypeName, string connStringName)
+        {
+            IDbConnection conn = DxCfgConnectionFactory.Instance.GetConnection(connTypeName);
+            conn.ConnectionString = DxCfgConnectionFactory.Instance[connStringName];
             return conn;
         }
 

@@ -18,6 +18,6 @@ namespace SI.CommandBus.Core
         SimpleResponse<TCommandResult> Send<TCommand, TCommandResult>
             (TCommand command)
             where TCommand : class, ICommand<TCommandResult>
-            where TCommandResult : class, ICommandResult;
+            where TCommandResult : class, ICommandResult, new();
     }
 }

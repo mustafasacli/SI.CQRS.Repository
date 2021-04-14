@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dexter.configuration>
   <dexter-settings writeEventLog="0" writeErrorLog="1">
-    <setting key="key1">val1</setting>
-    <setting key="key2">val2</setting>
-    <setting key="key3">val3</setting>
+    <setting key="connTypeName">pgsql</setting>
+    <!--<setting key="connTypeName">sqlce</setting>-->
+    <setting key="connStringName">connStringPgsql</setting>
+    <!--<setting key="connStringName">connStringSqlce</setting>-->
+    <setting key="connStringPgsql">server = 127.0.0.1; Database = postgres; user id = postgres; password = pg123;</setting>
+    <setting key="connStringSqlce">Data Source=..\..\DbFiles\SqlCe\ErrorLogDb_2019_04_25.sdf;Max Database Size=4091</setting>
     <setting key="key4">val4</setting>
   </dexter-settings>
   <dexter.configs writeEventLog="0" writeErrorLog="1">
     <dexter>
+      <add name="pgsql"
+           typename="Npgsql.NpgsqlConnection"
+           namespace="Npgsql, Version=2.0.14.3, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7"
+           dialect="Npgsql"/>
     </dexter>
   </dexter.configs>
 </dexter.configuration>

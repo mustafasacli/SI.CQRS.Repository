@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SI.CommandHandler.Base.Std\SI.CommandHandler.Base.Std.csproj" />
     <ProjectReference Include="..\SI.CommandHandler.Core.Std\SI.CommandHandler.Core.Std.csproj" />
   </ItemGroup>
 

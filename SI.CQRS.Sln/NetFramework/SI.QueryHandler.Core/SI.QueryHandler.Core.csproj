@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SimpleInfra.Common.Response, Version=1.3.0.0, Culture=neutral, PublicKeyToken=c1ce61cdd45628f7, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SimpleInfra.Common.Response.dll.1.3.0\lib\net40\SimpleInfra.Common.Response.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,6 +55,9 @@
       <Project>{076741E2-4702-45F8-8CAF-71EC86C4F1EB}</Project>
       <Name>SI.Query.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

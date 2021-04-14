@@ -1,12 +1,19 @@
 ﻿using SI.Command.Core;
+//using SI.CommandHandler.Base;
 using SI.CommandHandler.Core;
+using SimpleFileLogging;
+using SimpleFileLogging.Enums;
+using SimpleFileLogging.Interfaces;
 using System;
 using System.Collections.Concurrent;
+using System.IO;
+using System.Linq;
+using System.Reflection;
 
 namespace SI.CommandHandler.Factory
 {
     /// <summary>
-    /// Defines the <see cref="CommandHandlerFactory" />.
+    /// Defines the <see cref="CommandHandlerFactory"/>.
     /// </summary>
     public static class CommandHandlerFactory
     {
@@ -31,14 +38,14 @@ namespace SI.CommandHandler.Factory
         }
 
         /// <summary>
-        /// The GetCommandHandler.
+        /// Gets CommandHandler instance.
         /// </summary>
         /// <typeparam name="TCommand">.</typeparam>
         /// <typeparam name="TCommandResult">.</typeparam>
         /// <returns>.</returns>
         public static ICommandHandler<TCommand, TCommandResult> GetCommandHandler<TCommand, TCommandResult>()
         where TCommand : class, ICommand<TCommandResult>
-        where TCommandResult : class, ICommandResult
+        where TCommandResult : class, ICommandResult, new()
         {
             var commandHandlerType = commandHandlerRegs[typeof(TCommand).FullName];
             var instance = commandHandlerInstances.GetOrAdd(commandHandlerType,
@@ -50,34 +57,24 @@ namespace SI.CommandHandler.Factory
             return instance as ICommandHandler<TCommand, TCommandResult>;
         }
 
-        private static void BootstrapHandlers()
-        {
-        }
-
-        /*
-        // method usage:
-            BootstrapSimpleInjector();
-
-
         /// <summary>
         /// ISimpleLogger instance.
         /// </summary>
-        protected ISimpleLogger Logger
+        private static ISimpleLogger Logger
         {
             get
             {
                 var _logger = SimpleFileLogger.Instance;
-                _logger.LogDateFormatType = SimpleLogDateFormats.Hour;
+                _logger.LogDateFormatType = SimpleLogDateFormats.Day;
                 return _logger;
             }
         }
 
-
-        protected void BootstrapSimpleInjector()
+        /// <summary>
+        /// Bootstraps Command Handlers.
+        /// </summary>
+        private static void BootstrapHandlers()
         {
-            var container = new Container();
-            container.Options.DefaultScopedLifestyle = new WebRequestLifestyle();//new AsyncScopedLifestyle();
-
             try
             {
                 var path = AppDomain.CurrentDomain.BaseDirectory;
@@ -85,7 +82,7 @@ namespace SI.CommandHandler.Factory
                     path += "bin\\";
 
                 Logger?.Debug($"Domain Path: {path}");
-                var businessFiles = Directory.GetFiles(path, "*.Command.dll") ?? new string[] { };
+                var businessFiles = Directory.GetFiles(path, "*.CommandHandlers.dll") ?? new string[] { };
 
                 foreach (var file in businessFiles)
                 {
@@ -106,7 +103,7 @@ namespace SI.CommandHandler.Factory
                             }
                         });
 
-                        RegisterAssembly(container, assembly);
+                        RegisterAssembly(assembly);
 
                         Logger?.Info($"\"{assembly.FullName}\" is loaded.");
                         // throw new Exception("Sample Exception");
@@ -117,41 +114,33 @@ namespace SI.CommandHandler.Factory
             }
             catch (Exception ex2)
             { Logger?.Error(ex2); }
-
-            //container.Verify();
-            // This is an extension method from the integration package.
-            container.RegisterMvcControllers(Assembly.GetExecutingAssembly());
-
-            container.Verify();
-
-            DependencyResolver.SetResolver(new SimpleInjectorDependencyResolver(container));
         }
-        private void RegisterAssembly(Container container, Assembly assembly)
+
+        /// <summary>
+        /// Registers CommandHandlers Assembly.
+        /// </summary>
+        /// <param name="assembly"></param>
+        private static void RegisterAssembly(Assembly assembly)
         {
             var registrations = assembly
                 .GetExportedTypes()
                 .Where(type => type.IsClass && !type.IsAbstract
-                && type.Namespace.Contains(".Command.")
-                //&& type.Namespace.Contains(".Business.Interfaces.") == false
+                && type.Namespace.Contains(".CommandHandlers.")
+                && type.BaseType.IsGenericType
+                // && type.BaseType.GetGenericTypeDefinition() == typeof(SI.CommandHandler.Base.BaseCommandHandler<,>)
+                && type.GetInterfaces().LastOrDefault().GetGenericTypeDefinition() == typeof(ICommandHandler<,>)
+                && (type.BaseType.GetGenericArguments() ?? new Type[0]).Length == 2
                 )
-                .Select(q => new { service = (q.GetInterfaces() ?? new Type[0]).LastOrDefault(), implementation = q })
+                .Select(q => new { service = q.BaseType.GetGenericArguments()[0].FullName, implementation = q })
                 .ToList();
 
             if (registrations == null || registrations.Count < 1)
                 return;
 
-            //var registrations =
-            //    from type in assembly.GetExportedTypes()
-            //    where type.IsClass && !type.IsAbstract && type.Namespace.EndsWith(".Business")
-            //    from service in type.GetInterfaces()
-            //    select new { service, implementation = type };
-
             foreach (var reg in registrations)
             {
-                if (reg.service != null)
-                    container.Register(reg.service, reg.implementation, Lifestyle.Scoped);
+                commandHandlerRegs[reg.service] = reg.implementation;
             }
         }
-         */
     }
 }

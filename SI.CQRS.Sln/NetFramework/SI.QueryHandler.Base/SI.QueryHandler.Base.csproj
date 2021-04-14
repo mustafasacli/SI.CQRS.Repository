@@ -38,6 +38,9 @@
     <Reference Include="SimpleFileLogging, Version=2.4.0.0, Culture=neutral, PublicKeyToken=3473942f32152fab, processorArchitecture=MSIL">
       <HintPath>..\..\packages\SimpleFileLogging.dll.2.4.0\lib\net45\SimpleFileLogging.dll</HintPath>
     </Reference>
+    <Reference Include="SimpleInfra.Common.Response, Version=1.3.0.0, Culture=neutral, PublicKeyToken=c1ce61cdd45628f7, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SimpleInfra.Common.Response.dll.1.3.0\lib\net40\SimpleInfra.Common.Response.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

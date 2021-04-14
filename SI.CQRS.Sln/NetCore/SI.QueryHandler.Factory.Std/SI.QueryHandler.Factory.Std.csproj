@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SI.QueryHandler.Base.Std\SI.QueryHandler.Base.Std.csproj" />
     <ProjectReference Include="..\SI.QueryHandler.Core.Std\SI.QueryHandler.Core.Std.csproj" />
   </ItemGroup>
 

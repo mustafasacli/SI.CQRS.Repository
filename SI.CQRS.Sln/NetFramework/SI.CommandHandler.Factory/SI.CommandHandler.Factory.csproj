@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SimpleFileLogging, Version=2.4.0.0, Culture=neutral, PublicKeyToken=3473942f32152fab, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SimpleFileLogging.dll.2.4.0\lib\net45\SimpleFileLogging.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,10 +55,17 @@
       <Project>{CD63CF39-40A9-493E-86A3-A07BA7F72373}</Project>
       <Name>SI.Command.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SI.CommandHandler.Base\SI.CommandHandler.Base.csproj">
+      <Project>{ddf9a38d-0b97-4e0b-919d-c73f4ee8ec71}</Project>
+      <Name>SI.CommandHandler.Base</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SI.CommandHandler.Core\SI.CommandHandler.Core.csproj">
       <Project>{FDF55860-EC99-4E22-9BEF-139CE4070145}</Project>
       <Name>SI.CommandHandler.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

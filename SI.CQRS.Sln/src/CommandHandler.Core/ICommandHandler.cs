@@ -18,5 +18,19 @@ namespace SI.CommandHandler.Core
         /// <param name="command">.</param>
         /// <returns>.</returns>
         SimpleResponse<TCommandResult> Handle(TCommand command);
+
+        /// <summary>
+        /// Validate command.
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+        SimpleResponse Validate(TCommand command);
+
+        /// <summary>
+        /// Authorize command.
+        /// </summary>
+        /// <param name="command"></param>
+        /// <returns></returns>
+       SimpleResponse Authorize(TCommand command);
     }
 }
