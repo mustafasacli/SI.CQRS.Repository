@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SI.QueryHandler.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SI.QueryHandler.Core.IQueryHandler`2">
+            <summary>
+            Defines the <see cref="T:SI.QueryHandler.Core.IQueryHandler`2"/>.
+            </summary>
+            <typeparam name="TQuery">.</typeparam>
+            <typeparam name="TResult">.</typeparam>
+        </member>
+        <member name="M:SI.QueryHandler.Core.IQueryHandler`2.Handle(`0)">
+            <summary>
+            Handle query.
+            </summary>
+            <param name="query">The query <see cref="!:TQuery"/>.</param>
+            <returns>The <see cref="!:TResult"/>.</returns>
+        </member>
+        <member name="M:SI.QueryHandler.Core.IQueryHandler`2.Authorize(`0)">
+            <summary>
+            Authorize query.
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

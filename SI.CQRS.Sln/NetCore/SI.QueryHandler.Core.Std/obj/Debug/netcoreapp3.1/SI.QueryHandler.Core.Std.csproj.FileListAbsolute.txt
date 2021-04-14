@@ -1,0 +1,4 @@
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.Query.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.csprojAssemblyReference.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.AssemblyInfoInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.AssemblyInfo.cs

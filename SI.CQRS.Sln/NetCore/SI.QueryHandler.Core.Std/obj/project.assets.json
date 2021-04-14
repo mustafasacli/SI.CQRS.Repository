@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "SimpleInfra.Common.Response.dll/1.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/SimpleInfra.Common.Response.dll": {}
+        },
+        "runtime": {
+          "lib/net40/SimpleInfra.Common.Response.dll": {}
+        }
+      },
       "SI.Query.Core.Std/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -15,6 +24,19 @@
     }
   },
   "libraries": {
+    "SimpleInfra.Common.Response.dll/1.3.0": {
+      "sha512": "wJdM1HQ8Dul/b9zLQXEF1l4Ay3jXmrjhZBFio0RClq58RLbCeHZhIcTmKII13B7/ChBYFiBQ8Hi8NAFhvbXRjA==",
+      "type": "package",
+      "path": "simpleinfra.common.response.dll/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SimpleInfra.Common.Response.XML",
+        "lib/net40/SimpleInfra.Common.Response.dll",
+        "simpleinfra.common.response.dll.1.3.0.nupkg.sha512",
+        "simpleinfra.common.response.dll.nuspec"
+      ]
+    },
     "SI.Query.Core.Std/1.0.0": {
       "type": "project",
       "path": "../SI.Query.Core.Std/SI.Query.Core.Std.csproj",
@@ -23,7 +45,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "SI.Query.Core.Std >= 1.0.0"
+      "SI.Query.Core.Std >= 1.0.0",
+      "SimpleInfra.Common.Response.dll >= 1.3.0"
     ]
   },
   "packageFolders": {
@@ -69,6 +92,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "SimpleInfra.Common.Response.dll": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -87,5 +116,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SimpleInfra.Common.Response.dll 1.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "SimpleInfra.Common.Response.dll",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

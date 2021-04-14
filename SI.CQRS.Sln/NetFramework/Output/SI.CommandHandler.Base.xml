@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SI.CommandHandler.Base</name>
+    </assembly>
+    <members>
+        <member name="T:SI.CommandHandler.Base.BaseCommandHandler`2">
+            <summary>
+            Defines the <see cref="T:SI.CommandHandler.Base.BaseCommandHandler`2"/>.
+            </summary>
+            <typeparam name="TCommand">.</typeparam>
+            <typeparam name="TCommandResult">.</typeparam>
+        </member>
+        <member name="M:SI.CommandHandler.Base.BaseCommandHandler`2.Handle(`0)">
+            <summary>
+            Handle Command.
+            </summary>
+            <param name="command">.</param>
+            <returns>.</returns>
+        </member>
+        <member name="M:SI.CommandHandler.Base.BaseCommandHandler`2.Validate(`0)">
+            <summary>
+            Validate command.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SI.CommandHandler.Base.BaseCommandHandler`2.Authorize(`0)">
+            <summary>
+            Authorize command.
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SI.CommandHandler.Base.BaseCommandHandler`2.GetDbConnection">
+            <summary>
+            Gets DbConnection.
+            </summary>
+            <returns>.</returns>
+        </member>
+        <member name="M:SI.CommandHandler.Base.BaseCommandHandler`2.GetDbConnection(System.String,System.String)">
+            <summary>
+            Gets DbConnection.
+            </summary>
+            <returns>.</returns>
+        </member>
+        <member name="P:SI.CommandHandler.Base.BaseCommandHandler`2.DayLogger">
+            <summary>
+            Gets the DayLogger Logger for Day format..
+            </summary>
+        </member>
+        <member name="P:SI.CommandHandler.Base.BaseCommandHandler`2.HourLogger">
+            <summary>
+            Gets the HourLogger Logger for Hour format..
+            </summary>
+        </member>
+        <member name="P:SI.CommandHandler.Base.BaseCommandHandler`2.NoneLogger">
+            <summary>
+            Gets the NoneLogger Logger has no format..
+            </summary>
+        </member>
+    </members>
+</doc>
