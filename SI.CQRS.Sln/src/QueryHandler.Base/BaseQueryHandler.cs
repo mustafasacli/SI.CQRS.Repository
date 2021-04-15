@@ -30,7 +30,7 @@ namespace SI.QueryHandler.Base
         /// </summary>
         /// <param name="query">The query <see cref="TQuery"/>.</param>
         /// <returns>The <see cref="TResult"/>.</returns>
-        public abstract TResult Handle(TQuery query);
+        public abstract SimpleResponse<TResult> Handle(TQuery query);
 
         /// <summary>
         /// Authorize query.
