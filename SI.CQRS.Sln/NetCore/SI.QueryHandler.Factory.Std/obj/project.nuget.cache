@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OUxXbJ3IvuLTa866O3dcFy8ye8123KA5BJQzlWhLEQ5tKpQEqFajSizTq+UqkK5s6R1LixOOALUW7nVEN37+8A==",
+  "dgSpecHash": "b/ebZ8Dr1RlJ4QRBRmc3+p3bbse7dZrHyF+oYpQNQzsNtyJ7jGnvp2MPHIQw44C3YIQQ2d9a67HYU5WMdoLXyg==",
   "success": true,
   "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Factory.Std\\SI.QueryHandler.Factory.Std.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mustafa.sacli\\.nuget\\packages\\mst.dextercfg.dll\\1.3.0\\mst.dextercfg.dll.1.3.0.nupkg.sha512",
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simplefilelogging.dll\\2.4.0\\simplefilelogging.dll.2.4.0.nupkg.sha512"
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simplefilelogging.dll\\2.4.0\\simplefilelogging.dll.2.4.0.nupkg.sha512",
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simpleinfra.common.response.dll\\1.3.0\\simpleinfra.common.response.dll.1.3.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -24,6 +25,16 @@
       "warningLevel": 1,
       "message": "Package 'SimpleFileLogging.dll 2.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "SimpleFileLogging.dll",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SimpleInfra.Common.Response.dll 1.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "SimpleInfra.Common.Response.dll",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
