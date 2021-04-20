@@ -9,6 +9,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="SimpleInfra.Common.Response.dll" Version="1.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SI.QueryBus.Core.Std\SI.QueryBus.Core.Std.csproj" />
     <ProjectReference Include="..\SI.QueryHandler.Factory.Std\SI.QueryHandler.Factory.Std.csproj" />
   </ItemGroup>
