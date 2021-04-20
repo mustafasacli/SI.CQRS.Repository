@@ -24,6 +24,18 @@ namespace SI.QueryBus
         {
             var handler =
                 QueryHandlerFactory.GetQueryHandler<TQuery, TQueryResult>();
+
+            var authorize = handler.Authorize(query);
+            if (authorize.ResponseCode < 0)
+            {
+                return new SimpleResponse<TQueryResult>
+                {
+                    ResponseCode = authorize.ResponseCode,
+                    ResponseMessage = authorize.ResponseMessage,
+                    RCode = authorize.RCode
+                };
+            }
+
             var queryResult = handler.Handle(query);
             return queryResult;
         }
