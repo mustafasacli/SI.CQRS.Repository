@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "saZOHHkNAZctS9eV5dQNPAvte0DVwVJNRUraE8CwJ6XLIEwew+AUxz5sTrbO5CaLaSUIq6QhpNhW1Fq0HS58tw==",
+  "dgSpecHash": "xaGN9bjoJ+i3Z93mpm/gqTywZ2oIXlK+ppq6ICQm8tvFX01WCLv+u/rDReVQBnGfGCl7KbvAy1DIZ836Z0fsKg==",
   "success": true,
   "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryBus.Std\\SI.QueryBus.Std.csproj",
   "expectedPackageFiles": [

@@ -1,0 +1,14 @@
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.deps.json
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\bin\Debug\netcoreapp3.1\SI.Command.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Core.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\bin\Debug\netcoreapp3.1\SI.Command.Core.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.csprojAssemblyReference.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.AssemblyInfoInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.AssemblyInfo.cs
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.csproj.CoreCompileInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.csproj.CopyComplete
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\Netcore\SI.CommandHandler.Base.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.pdb

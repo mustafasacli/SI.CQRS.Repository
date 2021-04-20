@@ -1,0 +1,16 @@
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.deps.json
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\bin\Debug\netcoreapp3.1\SI.Command.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Base.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\bin\Debug\netcoreapp3.1\SI.CommandHandler.Core.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\bin\Debug\netcoreapp3.1\SI.Command.Core.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.csprojAssemblyReference.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.AssemblyInfoInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.AssemblyInfo.cs
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.csproj.CoreCompileInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.csproj.CopyComplete
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.CommandHandler.Factory.Std\obj\Debug\netcoreapp3.1\SI.CommandHandler.Factory.Std.pdb

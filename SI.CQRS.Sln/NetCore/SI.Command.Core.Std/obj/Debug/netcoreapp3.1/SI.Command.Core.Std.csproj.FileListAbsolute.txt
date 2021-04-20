@@ -1,0 +1,9 @@
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.Command.Core.Std\bin\Debug\netcoreapp3.1\SI.Command.Core.Std.deps.json
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.Command.Core.Std\bin\Debug\netcoreapp3.1\SI.Command.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.Command.Core.Std\bin\Debug\netcoreapp3.1\SI.Command.Core.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.Command.Core.Std\obj\Debug\netcoreapp3.1\SI.Command.Core.Std.csprojAssemblyReference.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.Command.Core.Std\obj\Debug\netcoreapp3.1\SI.Command.Core.Std.AssemblyInfoInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.Command.Core.Std\obj\Debug\netcoreapp3.1\SI.Command.Core.Std.AssemblyInfo.cs
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.Command.Core.Std\obj\Debug\netcoreapp3.1\SI.Command.Core.Std.csproj.CoreCompileInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.Command.Core.Std\obj\Debug\netcoreapp3.1\SI.Command.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.Command.Core.Std\obj\Debug\netcoreapp3.1\SI.Command.Core.Std.pdb

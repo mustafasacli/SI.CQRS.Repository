@@ -1,0 +1,112 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SI.CommandHandler.Factory.Std/1.0.0": {
+        "dependencies": {
+          "SI.CommandHandler.Base.Std": "1.0.0",
+          "SI.CommandHandler.Core.Std": "1.0.0"
+        },
+        "runtime": {
+          "SI.CommandHandler.Factory.Std.dll": {}
+        }
+      },
+      "Mst.DexterCfg.dll/1.3.0": {
+        "runtime": {
+          "lib/net45/Mst.DexterCfg.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "SimpleFileLogging.dll/2.4.0": {
+        "runtime": {
+          "lib/net45/SimpleFileLogging.dll": {
+            "assemblyVersion": "2.4.0.0",
+            "fileVersion": "2.4.0.0"
+          }
+        }
+      },
+      "SimpleInfra.Common.Response.dll/1.3.0": {
+        "runtime": {
+          "lib/net40/SimpleInfra.Common.Response.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "SI.Command.Core.Std/1.0.0": {
+        "runtime": {
+          "SI.Command.Core.Std.dll": {}
+        }
+      },
+      "SI.CommandHandler.Base.Std/1.0.0": {
+        "dependencies": {
+          "Mst.DexterCfg.dll": "1.3.0",
+          "SI.CommandHandler.Core.Std": "1.0.0",
+          "SimpleFileLogging.dll": "2.4.0",
+          "SimpleInfra.Common.Response.dll": "1.3.0"
+        },
+        "runtime": {
+          "SI.CommandHandler.Base.Std.dll": {}
+        }
+      },
+      "SI.CommandHandler.Core.Std/1.0.0": {
+        "dependencies": {
+          "SI.Command.Core.Std": "1.0.0",
+          "SimpleInfra.Common.Response.dll": "1.3.0"
+        },
+        "runtime": {
+          "SI.CommandHandler.Core.Std.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SI.CommandHandler.Factory.Std/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mst.DexterCfg.dll/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3InEYj7RDJkVvT0g54VFzxzsM9O97ccwOQz/EZn+ODUW/wHg746NFkUm5mvpdLi43TYUt7p4Rb6mWrTFVq++g==",
+      "path": "mst.dextercfg.dll/1.3.0",
+      "hashPath": "mst.dextercfg.dll.1.3.0.nupkg.sha512"
+    },
+    "SimpleFileLogging.dll/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EdTrz3BDjVavb5eKwXMcdDD9y9+GWW0JYQa2zDVjPUZhVvJ17LcGaW0eFNRxi+XD7NlCr3DwkutcR84glQrzpw==",
+      "path": "simplefilelogging.dll/2.4.0",
+      "hashPath": "simplefilelogging.dll.2.4.0.nupkg.sha512"
+    },
+    "SimpleInfra.Common.Response.dll/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wJdM1HQ8Dul/b9zLQXEF1l4Ay3jXmrjhZBFio0RClq58RLbCeHZhIcTmKII13B7/ChBYFiBQ8Hi8NAFhvbXRjA==",
+      "path": "simpleinfra.common.response.dll/1.3.0",
+      "hashPath": "simpleinfra.common.response.dll.1.3.0.nupkg.sha512"
+    },
+    "SI.Command.Core.Std/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SI.CommandHandler.Base.Std/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SI.CommandHandler.Core.Std/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

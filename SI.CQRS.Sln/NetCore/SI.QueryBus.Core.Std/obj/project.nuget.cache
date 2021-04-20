@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "ffaY8DznfAC0JRZvKMbzoravfIjsGXHLwqRZTOo10yO7XUt3b7uL/h8g+0Mt1cQdO7d1EqB0dyPhLrT4oOjOdg==",
+  "dgSpecHash": "BiRD+XyEEyTZL+wfdflAkGRMSdVTCb597f7oxqo3e1uTC6nt9NRF7UTNLBYc3SOI4SCQZUDyZZWjXfViZbTMbg==",
   "success": true,
   "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryBus.Core.Std\\SI.QueryBus.Core.Std.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simpleinfra.common.response.dll\\1.3.0\\simpleinfra.common.response.dll.1.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SimpleInfra.Common.Response.dll 1.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "SimpleInfra.Common.Response.dll",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

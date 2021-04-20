@@ -2,3 +2,11 @@ D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.csprojAssemblyReference.cache
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.AssemblyInfoInputs.cache
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.AssemblyInfo.cs
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.deps.json
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.Query.Core.Std.pdb
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.csproj.CoreCompileInputs.cache
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.csproj.CopyComplete
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.dll
+D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.pdb

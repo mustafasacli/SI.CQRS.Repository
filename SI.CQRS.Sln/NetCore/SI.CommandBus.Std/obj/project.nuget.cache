@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZYLCtk5gwQS+otmn4lJ6XJ4v6T5rtAcnVQXMpbFDQ2CGyIc7cNSZvaE1EUd5+oWjdKHh6L+EyYpoXaUJDpKAtg==",
+  "dgSpecHash": "oOvyCgTUUMMkJg8dctzXRjIBbwLljKjMU2ubWdQM3J1qkQe8v+kaZlrrlrojwssxLexXFqwOk4i8dfAbIWwSRQ==",
   "success": true,
   "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.CommandBus.Std\\SI.CommandBus.Std.csproj",
   "expectedPackageFiles": [

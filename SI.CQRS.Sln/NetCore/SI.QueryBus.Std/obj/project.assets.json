@@ -43,7 +43,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "SI.Query.Core.Std": "1.0.0"
+          "SI.Query.Core.Std": "1.0.0",
+          "SimpleInfra.Common.Response.dll": "1.3.0"
         },
         "compile": {
           "bin/placeholder/SI.QueryBus.Core.Std.dll": {}
@@ -170,7 +171,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "SI.QueryBus.Core.Std >= 1.0.0",
-      "SI.QueryHandler.Factory.Std >= 1.0.0"
+      "SI.QueryHandler.Factory.Std >= 1.0.0",
+      "SimpleInfra.Common.Response.dll >= 1.3.0"
     ]
   },
   "packageFolders": {
@@ -219,6 +221,12 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "SimpleInfra.Common.Response.dll": {
+            "target": "Package",
+            "version": "[1.3.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -234,7 +242,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   },
