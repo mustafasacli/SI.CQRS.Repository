@@ -5,7 +5,7 @@
     <!--<setting key="connTypeName">sqlce</setting>-->
     <setting key="connStringName">connStringPgsql</setting>
     <!--<setting key="connStringName">connStringSqlce</setting>-->
-    <setting key="connStringPgsql">server = 127.0.0.1; Database = postgres; user id = postgres; password = pg123;</setting>
+    <setting key="connStringPgsql">server = 127.0.0.1; Database = pagila; user id = postgres; password = 123456;</setting>
     <setting key="connStringSqlce">Data Source=..\..\DbFiles\SqlCe\ErrorLogDb_2019_04_25.sdf;Max Database Size=4091</setting>
     <setting key="key4">val4</setting>
   </dexter-settings>
@@ -15,6 +15,10 @@
            typename="Npgsql.NpgsqlConnection"
            namespace="Npgsql, Version=2.0.14.3, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7"
            dialect="Npgsql"/>
+      <!--<add name="pgsql" 
+           typename="Npgsql.NpgsqlConnection" 
+           namespace="Npgsql, Version=3.2.6.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7" 
+           dialect="Npgsql"/>-->
     </dexter>
   </dexter.configs>
 </dexter.configuration>

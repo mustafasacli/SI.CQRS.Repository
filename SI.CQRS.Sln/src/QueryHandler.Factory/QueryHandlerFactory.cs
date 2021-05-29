@@ -127,7 +127,8 @@ namespace SI.QueryHandler.Factory
                 .Where(type => type.IsClass && !type.IsAbstract
                 && type.Namespace.Contains(".QueryHandlers.")
                 && type.BaseType.IsGenericType
-                && type.BaseType.GetGenericTypeDefinition() == typeof(BaseQueryHandler<,>)
+                //&& type.BaseType.GetGenericTypeDefinition() == typeof(BaseQueryHandler<,>)
+                && type.GetInterfaces().LastOrDefault().GetGenericTypeDefinition() == typeof(IQueryHandler<,>)
                 && (type.BaseType.GetGenericArguments() ?? new Type[0]).Length == 2
                 )
                 .Select(q => new { service = q.BaseType.GetGenericArguments()[0].FullName, implementation = q })

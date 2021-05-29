@@ -53,11 +53,16 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>rd /s /q "$(ProjectDir)obj\Debug"
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>rd /s /q "$(ProjectDir)obj\Debug"
 rd /s /q "$(ProjectDir)obj\Release"
 rd /s /q "$(ProjectDir)bin\Debug"
 rd /s /q "$(ProjectDir)bin\Release"
 rd /s /q "$(ProjectDir)bin\*"
-rd /s /q "$(ProjectDir)obj\*"</PostBuildEvent>
+rd /s /q "$(ProjectDir)obj\*"
+rd /s /q "$(TargetDir)\*"</PreBuildEvent>
   </PropertyGroup>
 </Project>

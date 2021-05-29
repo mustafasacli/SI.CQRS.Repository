@@ -6,6 +6,7 @@ using SimpleFileLogging.Enums;
 using SimpleFileLogging.Interfaces;
 using SimpleInfra.Common.Response;
 using System.Data;
+using System.Data.Common;
 
 namespace SI.CommandHandler.Base
 {
@@ -49,7 +50,10 @@ namespace SI.CommandHandler.Base
         /// <returns>.</returns>
         protected virtual IDbConnection GetDbConnection()
         {
+            //var dbProviderFactory = DbProviderFactories.GetFactory("Npgsql");
+            //Npgsql
             var connTypeKey = DxCfgConnectionFactory.Instance["connTypeName"];
+            //IDbConnection conn = dbProviderFactory.CreateConnection();
             IDbConnection conn = DxCfgConnectionFactory.Instance.GetConnection(connTypeKey);
             var connstrKey = DxCfgConnectionFactory.Instance["connStringName"];
             conn.ConnectionString = DxCfgConnectionFactory.Instance[connstrKey];
