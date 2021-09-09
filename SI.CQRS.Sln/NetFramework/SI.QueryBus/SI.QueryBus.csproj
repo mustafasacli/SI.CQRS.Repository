@@ -56,15 +56,15 @@
       <Name>SI.Query.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\SI.QueryBus.Core\SI.QueryBus.Core.csproj">
-      <Project>{EF4AF97B-AE4B-4A1A-9E48-E02891882A44}</Project>
+      <Project>{ef4af97b-ae4b-4a1a-9e48-e02891882a44}</Project>
       <Name>SI.QueryBus.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\SI.QueryHandler.Core\SI.QueryHandler.Core.csproj">
-      <Project>{0F8852BA-9BDF-4205-8F44-1BF9D8A4D39E}</Project>
+      <Project>{0f8852ba-9bdf-4205-8f44-1bf9d8a4d39e}</Project>
       <Name>SI.QueryHandler.Core</Name>
     </ProjectReference>
     <ProjectReference Include="..\SI.QueryHandler.Factory\SI.QueryHandler.Factory.csproj">
-      <Project>{8D4E2A6B-F2E9-4E0E-AF53-C9D89F0AC785}</Project>
+      <Project>{8d4e2a6b-f2e9-4e0e-af53-c9d89f0ac785}</Project>
       <Name>SI.QueryHandler.Factory</Name>
     </ProjectReference>
   </ItemGroup>

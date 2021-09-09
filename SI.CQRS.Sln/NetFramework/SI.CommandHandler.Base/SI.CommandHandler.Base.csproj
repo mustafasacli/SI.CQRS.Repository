@@ -61,10 +61,6 @@
       <Project>{CD63CF39-40A9-493E-86A3-A07BA7F72373}</Project>
       <Name>SI.Command.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\SI.CommandHandler.Core\SI.CommandHandler.Core.csproj">
-      <Project>{FDF55860-EC99-4E22-9BEF-139CE4070145}</Project>
-      <Name>SI.CommandHandler.Core</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="dexter.cfg.xml">
