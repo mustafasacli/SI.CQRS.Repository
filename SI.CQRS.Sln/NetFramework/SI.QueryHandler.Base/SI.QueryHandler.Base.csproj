@@ -69,6 +69,10 @@
       <Project>{076741E2-4702-45F8-8CAF-71EC86C4F1EB}</Project>
       <Name>SI.Query.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SI.QueryHandler.Core\SI.QueryHandler.Core.csproj">
+      <Project>{0F8852BA-9BDF-4205-8F44-1BF9D8A4D39E}</Project>
+      <Name>SI.QueryHandler.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
