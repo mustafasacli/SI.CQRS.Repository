@@ -11,15 +11,6 @@
           "lib/net45/Mst.DexterCfg.dll": {}
         }
       },
-      "SimpleFileLogging.dll/2.4.0": {
-        "type": "package",
-        "compile": {
-          "lib/net45/SimpleFileLogging.dll": {}
-        },
-        "runtime": {
-          "lib/net45/SimpleFileLogging.dll": {}
-        }
-      },
       "SimpleInfra.Common.Response.dll/1.3.0": {
         "type": "package",
         "compile": {
@@ -71,19 +62,6 @@
         "mst.dextercfg.dll.nuspec"
       ]
     },
-    "SimpleFileLogging.dll/2.4.0": {
-      "sha512": "EdTrz3BDjVavb5eKwXMcdDD9y9+GWW0JYQa2zDVjPUZhVvJ17LcGaW0eFNRxi+XD7NlCr3DwkutcR84glQrzpw==",
-      "type": "package",
-      "path": "simplefilelogging.dll/2.4.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/SimpleFileLogging.XML",
-        "lib/net45/SimpleFileLogging.dll",
-        "simplefilelogging.dll.2.4.0.nupkg.sha512",
-        "simplefilelogging.dll.nuspec"
-      ]
-    },
     "SimpleInfra.Common.Response.dll/1.3.0": {
       "sha512": "wJdM1HQ8Dul/b9zLQXEF1l4Ay3jXmrjhZBFio0RClq58RLbCeHZhIcTmKII13B7/ChBYFiBQ8Hi8NAFhvbXRjA==",
       "type": "package",
@@ -113,43 +91,41 @@
       "Mst.DexterCfg.dll >= 1.3.0",
       "SI.Query.Core.Std >= 1.0.0",
       "SI.QueryHandler.Core.Std >= 1.0.0",
-      "SimpleFileLogging.dll >= 2.4.0",
       "SimpleInfra.Common.Response.dll >= 1.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Base.Std\\SI.QueryHandler.Base.Std.csproj",
+      "projectUniqueName": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Base.Std\\SI.QueryHandler.Base.Std.csproj",
       "projectName": "SI.QueryHandler.Base.Std",
-      "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Base.Std\\SI.QueryHandler.Base.Std.csproj",
-      "packagesPath": "C:\\Users\\mustafa.sacli\\.nuget\\packages\\",
-      "outputPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Base.Std\\obj\\",
+      "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Base.Std\\SI.QueryHandler.Base.Std.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Base.Std\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mustafa.sacli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\VistaDB 6.config"
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Query.Core.Std\\SI.Query.Core.Std.csproj": {
-              "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Query.Core.Std\\SI.Query.Core.Std.csproj"
+            "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Query.Core.Std\\SI.Query.Core.Std.csproj": {
+              "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Query.Core.Std\\SI.Query.Core.Std.csproj"
             },
-            "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Core.Std\\SI.QueryHandler.Core.Std.csproj": {
-              "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Core.Std\\SI.QueryHandler.Core.Std.csproj"
+            "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Core.Std\\SI.QueryHandler.Core.Std.csproj": {
+              "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Core.Std\\SI.QueryHandler.Core.Std.csproj"
             }
           }
         }
@@ -167,10 +143,6 @@
           "Mst.DexterCfg.dll": {
             "target": "Package",
             "version": "[1.3.0, )"
-          },
-          "SimpleFileLogging.dll": {
-            "target": "Package",
-            "version": "[2.4.0, )"
           },
           "SimpleInfra.Common.Response.dll": {
             "target": "Package",
@@ -192,7 +164,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -203,16 +175,6 @@
       "warningLevel": 1,
       "message": "Package 'Mst.DexterCfg.dll 1.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Mst.DexterCfg.dll",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'SimpleFileLogging.dll 2.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "SimpleFileLogging.dll",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

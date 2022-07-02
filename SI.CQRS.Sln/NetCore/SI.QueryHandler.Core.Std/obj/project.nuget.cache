@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eHAEDHUAEdbPdebEFZ3ybKztm9ucaQ3D6hf5Hbl1gY9bQPZqFVV/iFs+1p+rRsVs7nOvk9gDlRumGJxuTV/y7w==",
+  "dgSpecHash": "UrVA8pnIDuFyewCN156mJgCYadsPX+kAzRTQ62fv/2lxUwWi5JYPx8VSS1nk/XZJzisQ3BTRk6U7awlyWv0eFg==",
   "success": true,
-  "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Core.Std\\SI.QueryHandler.Core.Std.csproj",
+  "projectFilePath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Core.Std\\SI.QueryHandler.Core.Std.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simpleinfra.common.response.dll\\1.3.0\\simpleinfra.common.response.dll.1.3.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\simpleinfra.common.response.dll\\1.3.0\\simpleinfra.common.response.dll.1.3.0.nupkg.sha512"
   ],
   "logs": [
     {

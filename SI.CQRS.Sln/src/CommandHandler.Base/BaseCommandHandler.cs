@@ -1,12 +1,8 @@
 ﻿using Mst.DexterCfg.Factory;
 using SI.Command.Core;
 using SI.CommandHandler.Core;
-using SimpleFileLogging;
-using SimpleFileLogging.Enums;
-using SimpleFileLogging.Interfaces;
 using SimpleInfra.Common.Response;
 using System.Data;
-using System.Data.Common;
 
 namespace SI.CommandHandler.Base
 {
@@ -51,9 +47,9 @@ namespace SI.CommandHandler.Base
         protected virtual IDbConnection GetDbConnection()
         {
             //var dbProviderFactory = DbProviderFactories.GetFactory("Npgsql");
+            //IDbConnection conn = dbProviderFactory.CreateConnection();
             //Npgsql
             var connTypeKey = DxCfgConnectionFactory.Instance["connTypeName"];
-            //IDbConnection conn = dbProviderFactory.CreateConnection();
             IDbConnection conn = DxCfgConnectionFactory.Instance.GetConnection(connTypeKey);
             var connstrKey = DxCfgConnectionFactory.Instance["connStringName"];
             conn.ConnectionString = DxCfgConnectionFactory.Instance[connstrKey];
@@ -69,45 +65,6 @@ namespace SI.CommandHandler.Base
             IDbConnection conn = DxCfgConnectionFactory.Instance.GetConnection(connTypeName);
             conn.ConnectionString = DxCfgConnectionFactory.Instance[connStringName];
             return conn;
-        }
-
-        /// <summary>
-        /// Gets the DayLogger Logger for Day format..
-        /// </summary>
-        protected ISimpleLogger DayLogger
-        {
-            get
-            {
-                var logger = SimpleFileLogger.Instance;
-                logger.LogDateFormatType = SimpleLogDateFormats.Day;
-                return logger;
-            }
-        }
-
-        /// <summary>
-        /// Gets the HourLogger Logger for Hour format..
-        /// </summary>
-        protected ISimpleLogger HourLogger
-        {
-            get
-            {
-                var logger = SimpleFileLogger.Instance;
-                logger.LogDateFormatType = SimpleLogDateFormats.Hour;
-                return logger;
-            }
-        }
-
-        /// <summary>
-        /// Gets the NoneLogger Logger has no format..
-        /// </summary>
-        protected ISimpleLogger NoneLogger
-        {
-            get
-            {
-                var logger = SimpleFileLogger.Instance;
-                logger.LogDateFormatType = SimpleLogDateFormats.None;
-                return logger;
-            }
         }
     }
 }

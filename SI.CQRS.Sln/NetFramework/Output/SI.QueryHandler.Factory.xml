@@ -32,11 +32,6 @@
             <typeparam name="TQueryResult">.</typeparam>
             <returns>.</returns>
         </member>
-        <member name="P:SI.QueryHandler.Factory.QueryHandlerFactory.Logger">
-            <summary>
-            ISimpleLogger instance.
-            </summary>
-        </member>
         <member name="M:SI.QueryHandler.Factory.QueryHandlerFactory.BootstrapHandlers">
             <summary>
             Bootstraps Command Handlers.

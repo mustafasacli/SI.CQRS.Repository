@@ -11,6 +11,7 @@
   <ItemGroup>
     <ProjectReference Include="..\SI.CommandHandler.Base.Std\SI.CommandHandler.Base.Std.csproj" />
     <ProjectReference Include="..\SI.CommandHandler.Core.Std\SI.CommandHandler.Core.Std.csproj" />
+    <ProjectReference Include="..\SI.Logging.Std\SI.Logging.Std.csproj" />
   </ItemGroup>
 
 </Project>

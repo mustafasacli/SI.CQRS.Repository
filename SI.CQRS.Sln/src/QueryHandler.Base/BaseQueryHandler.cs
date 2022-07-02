@@ -1,12 +1,8 @@
 ﻿using Mst.DexterCfg.Factory;
 using SI.Query.Core;
 using SI.QueryHandler.Core;
-using SimpleFileLogging;
-using SimpleFileLogging.Enums;
-using SimpleFileLogging.Interfaces;
 using SimpleInfra.Common.Response;
 using System.Data;
-using System.Data.Common;
 
 namespace SI.QueryHandler.Base
 {
@@ -43,7 +39,6 @@ namespace SI.QueryHandler.Base
             return new SimpleResponse();
         }
 
-
         /// <summary>
         /// Gets DbConnection.
         /// </summary>
@@ -69,45 +64,6 @@ namespace SI.QueryHandler.Base
             IDbConnection conn = DxCfgConnectionFactory.Instance.GetConnection(connTypeName);
             conn.ConnectionString = DxCfgConnectionFactory.Instance[connStringName];
             return conn;
-        }
-
-        /// <summary>
-        /// Gets the DayLogger.
-        /// </summary>
-        protected ISimpleLogger DayLogger
-        {
-            get
-            {
-                var logger = SimpleFileLogger.Instance;
-                logger.LogDateFormatType = SimpleLogDateFormats.Day;
-                return logger;
-            }
-        }
-
-        /// <summary>
-        /// Gets the HourLogger.
-        /// </summary>
-        protected ISimpleLogger HourLogger
-        {
-            get
-            {
-                var logger = SimpleFileLogger.Instance;
-                logger.LogDateFormatType = SimpleLogDateFormats.Hour;
-                return logger;
-            }
-        }
-
-        /// <summary>
-        /// Gets the NoneLogger.
-        /// </summary>
-        protected ISimpleLogger NoneLogger
-        {
-            get
-            {
-                var logger = SimpleFileLogger.Instance;
-                logger.LogDateFormatType = SimpleLogDateFormats.None;
-                return logger;
-            }
         }
     }
 }

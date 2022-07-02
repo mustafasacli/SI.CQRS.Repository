@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SI.Logging.Std/1.0.0": {
+        "dependencies": {
+          "SimpleFileLogging.dll": "2.14.0"
+        },
+        "runtime": {
+          "SI.Logging.Std.dll": {}
+        }
+      },
+      "SimpleFileLogging.dll/2.14.0": {
+        "runtime": {
+          "lib/net45/SimpleFileLogging.dll": {
+            "assemblyVersion": "2.14.0.0",
+            "fileVersion": "2.14.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SI.Logging.Std/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SimpleFileLogging.dll/2.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4L4BlA9eHHxng266hSdBNUKaws5Bm+5mvaAfmlb+0ho2F0XInFHiBoqycuZGM+/ccCglNS3DFWn7H0gljyF0zg==",
+      "path": "simplefilelogging.dll/2.14.0",
+      "hashPath": "simplefilelogging.dll.2.14.0.nupkg.sha512"
+    }
+  }
+}

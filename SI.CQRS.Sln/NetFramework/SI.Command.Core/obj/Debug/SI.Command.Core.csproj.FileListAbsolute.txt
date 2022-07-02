@@ -1,0 +1,6 @@
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\Output\SI.Command.Core.xml
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\Output\SI.Command.Core.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\Output\SI.Command.Core.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Command.Core\obj\Debug\SI.Command.Core.csproj.CoreCompileInputs.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Command.Core\obj\Debug\SI.Command.Core.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Command.Core\obj\Debug\SI.Command.Core.pdb

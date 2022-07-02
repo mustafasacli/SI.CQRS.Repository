@@ -50,35 +50,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryBus.Core.Std\\SI.QueryBus.Core.Std.csproj",
+      "projectUniqueName": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryBus.Core.Std\\SI.QueryBus.Core.Std.csproj",
       "projectName": "SI.QueryBus.Core.Std",
-      "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryBus.Core.Std\\SI.QueryBus.Core.Std.csproj",
-      "packagesPath": "C:\\Users\\mustafa.sacli\\.nuget\\packages\\",
-      "outputPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryBus.Core.Std\\obj\\",
+      "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryBus.Core.Std\\SI.QueryBus.Core.Std.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryBus.Core.Std\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mustafa.sacli\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\VistaDB 6.config"
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Query.Core.Std\\SI.Query.Core.Std.csproj": {
-              "projectPath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Query.Core.Std\\SI.Query.Core.Std.csproj"
+            "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Query.Core.Std\\SI.Query.Core.Std.csproj": {
+              "projectPath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Query.Core.Std\\SI.Query.Core.Std.csproj"
             }
           }
         }
@@ -113,7 +112,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   },

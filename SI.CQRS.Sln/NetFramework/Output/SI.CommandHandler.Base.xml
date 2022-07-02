@@ -44,20 +44,5 @@
             </summary>
             <returns>.</returns>
         </member>
-        <member name="P:SI.CommandHandler.Base.BaseCommandHandler`2.DayLogger">
-            <summary>
-            Gets the DayLogger Logger for Day format..
-            </summary>
-        </member>
-        <member name="P:SI.CommandHandler.Base.BaseCommandHandler`2.HourLogger">
-            <summary>
-            Gets the HourLogger Logger for Hour format..
-            </summary>
-        </member>
-        <member name="P:SI.CommandHandler.Base.BaseCommandHandler`2.NoneLogger">
-            <summary>
-            Gets the NoneLogger Logger has no format..
-            </summary>
-        </member>
     </members>
 </doc>

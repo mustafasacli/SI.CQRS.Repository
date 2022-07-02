@@ -32,11 +32,6 @@
             <typeparam name="TCommandResult">.</typeparam>
             <returns>.</returns>
         </member>
-        <member name="P:SI.CommandHandler.Factory.CommandHandlerFactory.Logger">
-            <summary>
-            ISimpleLogger instance.
-            </summary>
-        </member>
         <member name="M:SI.CommandHandler.Factory.CommandHandlerFactory.BootstrapHandlers">
             <summary>
             Bootstraps Command Handlers.

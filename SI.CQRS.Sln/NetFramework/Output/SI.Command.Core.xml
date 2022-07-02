@@ -4,5 +4,16 @@
         <name>SI.Command.Core</name>
     </assembly>
     <members>
+        <member name="T:SI.Command.Core.ICommand`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TCommandResult">The type of the command result.</typeparam>
+        </member>
+        <member name="T:SI.Command.Core.ICommandResult">
+            <summary>
+            
+            </summary>
+        </member>
     </members>
 </doc>

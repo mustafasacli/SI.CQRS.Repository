@@ -1,0 +1,9 @@
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Logging\bin\Debug\SI.Logging.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Logging\bin\Debug\SI.Logging.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Logging\bin\Debug\SimpleFileLogging.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Logging\bin\Debug\SimpleFileLogging.xml
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Logging\obj\Debug\SI.Logging.csproj.AssemblyReference.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Logging\obj\Debug\SI.Logging.csproj.CoreCompileInputs.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Logging\obj\Debug\SI.Logging.csproj.CopyComplete
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Logging\obj\Debug\SI.Logging.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetFramework\SI.Logging\obj\Debug\SI.Logging.pdb

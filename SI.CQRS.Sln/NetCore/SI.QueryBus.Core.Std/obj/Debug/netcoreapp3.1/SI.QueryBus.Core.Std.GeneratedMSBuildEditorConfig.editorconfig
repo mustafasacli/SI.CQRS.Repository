@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = SI.QueryBus.Core.Std
+build_property.ProjectDir = C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryBus.Core.Std\

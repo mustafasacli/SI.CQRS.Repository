@@ -10,3 +10,16 @@ D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.csproj.CopyComplete
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.dll
 D:\Depo\Git_Projects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.deps.json
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.Query.Core.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\bin\Debug\netcoreapp3.1\SI.Query.Core.Std.pdb
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.csproj.AssemblyReference.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.AssemblyInfoInputs.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.AssemblyInfo.cs
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.csproj.CoreCompileInputs.cache
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.csproj.CopyComplete
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.dll
+C:\GitProjects\SI.CQRS.Repository\SI.CQRS.Sln\NetCore\SI.QueryHandler.Core.Std\obj\Debug\netcoreapp3.1\SI.QueryHandler.Core.Std.pdb

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetFramework", "NetFramework", "{C79D40BF-7E37-453A-8828-02ABA73155EF}"
 EndProject
@@ -31,29 +31,33 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.QueryHandler.Factory", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{FEFB9670-0796-44C1-971D-9B2BE2CC82C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.Command.Core.Std", "NetCore\SI.Command.Core.Std\SI.Command.Core.Std.csproj", "{FA0AB54A-843F-4168-87FB-A071FE6122C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Command.Core.Std", "NetCore\SI.Command.Core.Std\SI.Command.Core.Std.csproj", "{FA0AB54A-843F-4168-87FB-A071FE6122C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.CommandBus.Core.Std", "NetCore\SI.CommandBus.Core.Std\SI.CommandBus.Core.Std.csproj", "{C0C1D1EA-8DCA-4B6E-A607-5DFC2E21D3B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.CommandBus.Core.Std", "NetCore\SI.CommandBus.Core.Std\SI.CommandBus.Core.Std.csproj", "{C0C1D1EA-8DCA-4B6E-A607-5DFC2E21D3B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.CommandBus.Std", "NetCore\SI.CommandBus.Std\SI.CommandBus.Std.csproj", "{B42F96FD-318C-474E-A1A6-1C762555538B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.CommandBus.Std", "NetCore\SI.CommandBus.Std\SI.CommandBus.Std.csproj", "{B42F96FD-318C-474E-A1A6-1C762555538B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.CommandHandler.Base.Std", "Netcore\SI.CommandHandler.Base.Std\SI.CommandHandler.Base.Std.csproj", "{8C1DD06D-9844-4619-854B-8BAC6CE9CD14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.CommandHandler.Base.Std", "Netcore\SI.CommandHandler.Base.Std\SI.CommandHandler.Base.Std.csproj", "{8C1DD06D-9844-4619-854B-8BAC6CE9CD14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.CommandHandler.Core.Std", "NetCore\SI.CommandHandler.Core.Std\SI.CommandHandler.Core.Std.csproj", "{603AD594-3C6E-4C2B-96BC-2A8DA15B15B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.CommandHandler.Core.Std", "NetCore\SI.CommandHandler.Core.Std\SI.CommandHandler.Core.Std.csproj", "{603AD594-3C6E-4C2B-96BC-2A8DA15B15B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.CommandHandler.Factory.Std", "NetCore\SI.CommandHandler.Factory.Std\SI.CommandHandler.Factory.Std.csproj", "{C4A06E5C-F357-46D3-92EB-D4BBD0F102F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.CommandHandler.Factory.Std", "NetCore\SI.CommandHandler.Factory.Std\SI.CommandHandler.Factory.Std.csproj", "{C4A06E5C-F357-46D3-92EB-D4BBD0F102F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.Query.Core.Std", "NetCore\SI.Query.Core.Std\SI.Query.Core.Std.csproj", "{5E702DB8-1BB1-450B-A9DE-E93944965B9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.Query.Core.Std", "NetCore\SI.Query.Core.Std\SI.Query.Core.Std.csproj", "{5E702DB8-1BB1-450B-A9DE-E93944965B9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.QueryBus.Core.Std", "NetCore\SI.QueryBus.Core.Std\SI.QueryBus.Core.Std.csproj", "{F0F65880-2F88-45FD-BB12-F8A041A35B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.QueryBus.Core.Std", "NetCore\SI.QueryBus.Core.Std\SI.QueryBus.Core.Std.csproj", "{F0F65880-2F88-45FD-BB12-F8A041A35B2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.QueryBus.Std", "NetCore\SI.QueryBus.Std\SI.QueryBus.Std.csproj", "{75076018-F79B-4614-B332-AA24C1F30FF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.QueryBus.Std", "NetCore\SI.QueryBus.Std\SI.QueryBus.Std.csproj", "{75076018-F79B-4614-B332-AA24C1F30FF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.QueryHandler.Base.Std", "NetCore\SI.QueryHandler.Base.Std\SI.QueryHandler.Base.Std.csproj", "{A644E9D4-3AE2-46E8-9A9A-1FDC37DB3677}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.QueryHandler.Base.Std", "NetCore\SI.QueryHandler.Base.Std\SI.QueryHandler.Base.Std.csproj", "{A644E9D4-3AE2-46E8-9A9A-1FDC37DB3677}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.QueryHandler.Core.Std", "NetCore\SI.QueryHandler.Core.Std\SI.QueryHandler.Core.Std.csproj", "{42B5AFDB-A879-4B5B-A6AC-C14F68FA2A9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.QueryHandler.Core.Std", "NetCore\SI.QueryHandler.Core.Std\SI.QueryHandler.Core.Std.csproj", "{42B5AFDB-A879-4B5B-A6AC-C14F68FA2A9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.QueryHandler.Factory.Std", "NetCore\SI.QueryHandler.Factory.Std\SI.QueryHandler.Factory.Std.csproj", "{29B968B4-C9B3-4EB5-A3A0-8EB68A592DAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SI.QueryHandler.Factory.Std", "NetCore\SI.QueryHandler.Factory.Std\SI.QueryHandler.Factory.Std.csproj", "{29B968B4-C9B3-4EB5-A3A0-8EB68A592DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.Logging", "NetFramework\SI.Logging\SI.Logging.csproj", "{B4E3AE75-2AC9-44D0-9F31-FB122DA94248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SI.Logging.Std", "NetCore\SI.Logging.Std\SI.Logging.Std.csproj", "{0460BF43-BD71-4B5B-A7D3-AA8A3AF51AF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -157,6 +161,14 @@ Global
 		{29B968B4-C9B3-4EB5-A3A0-8EB68A592DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29B968B4-C9B3-4EB5-A3A0-8EB68A592DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29B968B4-C9B3-4EB5-A3A0-8EB68A592DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E3AE75-2AC9-44D0-9F31-FB122DA94248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E3AE75-2AC9-44D0-9F31-FB122DA94248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E3AE75-2AC9-44D0-9F31-FB122DA94248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E3AE75-2AC9-44D0-9F31-FB122DA94248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0460BF43-BD71-4B5B-A7D3-AA8A3AF51AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0460BF43-BD71-4B5B-A7D3-AA8A3AF51AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0460BF43-BD71-4B5B-A7D3-AA8A3AF51AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0460BF43-BD71-4B5B-A7D3-AA8A3AF51AF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -186,6 +198,8 @@ Global
 		{A644E9D4-3AE2-46E8-9A9A-1FDC37DB3677} = {FEFB9670-0796-44C1-971D-9B2BE2CC82C9}
 		{42B5AFDB-A879-4B5B-A6AC-C14F68FA2A9F} = {FEFB9670-0796-44C1-971D-9B2BE2CC82C9}
 		{29B968B4-C9B3-4EB5-A3A0-8EB68A592DAB} = {FEFB9670-0796-44C1-971D-9B2BE2CC82C9}
+		{B4E3AE75-2AC9-44D0-9F31-FB122DA94248} = {C79D40BF-7E37-453A-8828-02ABA73155EF}
+		{0460BF43-BD71-4B5B-A7D3-AA8A3AF51AF2} = {FEFB9670-0796-44C1-971D-9B2BE2CC82C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB44965E-B9F2-4DB9-8FBA-664269222E8A}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AR2F5sxFR5ZPmyphe4/pQ7xNayUNcqrp2k0/jePuVvf6FDYkVb+PpHNCH8OAZNUm7zAcJ5nLOs5yYINMG48b1g==",
+  "dgSpecHash": "WQBBvHUlsd4eJRTtx1hdRr4JcqdnLW9ZwW6llU5WSRRxr42zArAh00psIh+FClCvD1OOupXzaJbTW6ZK6yyWXg==",
   "success": true,
-  "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Command.Core.Std\\SI.Command.Core.Std.csproj",
+  "projectFilePath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.Command.Core.Std\\SI.Command.Core.Std.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

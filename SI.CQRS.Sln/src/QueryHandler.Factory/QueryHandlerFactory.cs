@@ -1,9 +1,6 @@
-﻿using SI.Query.Core;
-using SI.QueryHandler.Base;
+﻿using SI.Logging;
+using SI.Query.Core;
 using SI.QueryHandler.Core;
-using SimpleFileLogging;
-using SimpleFileLogging.Enums;
-using SimpleFileLogging.Interfaces;
 using System;
 using System.Collections.Concurrent;
 using System.IO;
@@ -58,19 +55,6 @@ namespace SI.QueryHandler.Factory
         }
 
         /// <summary>
-        /// ISimpleLogger instance.
-        /// </summary>
-        private static ISimpleLogger Logger
-        {
-            get
-            {
-                var _logger = SimpleFileLogger.Instance;
-                _logger.LogDateFormatType = SimpleLogDateFormats.Day;
-                return _logger;
-            }
-        }
-
-        /// <summary>
         /// Bootstraps Command Handlers.
         /// </summary>
         private static void BootstrapHandlers()
@@ -81,7 +65,7 @@ namespace SI.QueryHandler.Factory
                 if (Directory.Exists(path + "bin\\"))
                     path += "bin\\";
 
-                Logger?.Debug($"Domain Path: {path}");
+                SimpleCommonLogger.DayLogger?.Debug($"Domain Path: {path}");
                 var businessFiles = Directory.GetFiles(path, "*.QueryHandlers.dll") ?? new string[] { };
 
                 foreach (var file in businessFiles)
@@ -98,22 +82,21 @@ namespace SI.QueryHandler.Factory
                             }
                             catch (Exception e2)
                             {
-                                Logger?.Error(e2, $"Asemmbly could not be loaded. Assembly: {a.FullName}");
+                                SimpleCommonLogger.DayLogger?.Error(e2, $"Asemmbly could not be loaded. Assembly: {a.FullName}");
                                 throw;
                             }
                         });
 
                         RegisterAssembly(assembly);
 
-                        Logger?.Info($"\"{assembly.FullName}\" is loaded.");
-                        // throw new Exception("Sample Exception");
+                        SimpleCommonLogger.DayLogger?.Info($"\"{assembly.FullName}\" is loaded.");
                     }
                     catch (Exception ex)
-                    { Logger?.Error(ex, $"File Name: {file}"); }
+                    { SimpleCommonLogger.DayLogger?.Error(ex, $"File Name: {file}"); }
                 }
             }
             catch (Exception ex2)
-            { Logger?.Error(ex2); }
+            { SimpleCommonLogger.DayLogger?.Error(ex2); }
         }
 
         /// <summary>

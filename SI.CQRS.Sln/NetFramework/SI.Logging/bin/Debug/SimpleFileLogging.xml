@@ -137,27 +137,24 @@
             
              <param name="dictionary">   The dictionary. </param>
         </member>
-        <member name="T:SimpleFileLogging.LoggingFileOperator">
+        <member name="T:SimpleFileLogging.SimpleFileOperator">
              <summary>   A logging file operator. </summary>
             
              <remarks>   Msacli, 29.04.2019. </remarks>
         </member>
-        <member name="F:SimpleFileLogging.LoggingFileOperator.lazyOp">
-            <summary>   The lazy operation. </summary>
-        </member>
-        <member name="M:SimpleFileLogging.LoggingFileOperator.#ctor">
+        <member name="M:SimpleFileLogging.SimpleFileOperator.#ctor">
              <summary>
              Constructor that prevents a default instance of this class from being created.
              </summary>
             
              <remarks>   Msacli, 29.04.2019. </remarks>
         </member>
-        <member name="P:SimpleFileLogging.LoggingFileOperator.Instance">
+        <member name="P:SimpleFileLogging.SimpleFileOperator.Instance">
              <summary>   Gets the ınstance. </summary>
             
              <value> The instance. </value>
         </member>
-        <member name="M:SimpleFileLogging.LoggingFileOperator.Write(System.String,System.Collections.Generic.List{System.String},System.Boolean)">
+        <member name="M:SimpleFileLogging.SimpleFileOperator.Write(System.String,System.Collections.Generic.List{System.String},System.Boolean,System.UInt32)">
              <summary>   Writes the given file. </summary>
             
              <remarks>   Msacli, 29.04.2019. </remarks>
@@ -165,6 +162,22 @@
              <param name="filePath">     Full pathname of the file. </param>
              <param name="rows">         The rows. </param>
              <param name="writeLine">    (Optional) True to write line. </param>
+             <param name="autoFlushLineCount">Line count for file auto flush.</param>
+        </member>
+        <member name="M:SimpleFileLogging.SimpleFileOperator.ReadLines(System.String)">
+            <summary>
+            Reads the lines.
+            </summary>
+            <param name="fileName">Name of the file.</param>
+            <returns>Returns lines as string list.</returns>
+        </member>
+        <member name="M:SimpleFileLogging.SimpleFileOperator.ReadLastLine(System.String,System.Boolean)">
+            <summary>
+            Read Last the line.
+            </summary>
+            <param name="fileName">Name of the file.</param>
+            <param name="ignoreEmptyLine">Ignores empty line. if true ignores empty lines.</param>
+            <returns>Read Last Line and returns as string.</returns>
         </member>
         <member name="T:SimpleFileLogging.SimpleFileLogger">
              <summary>   Simple Logger for file logging. </summary>
@@ -194,6 +207,15 @@
              <remarks>   Msacli, 29.04.2019. </remarks>
             
              <param name="logType">  Log Type. </param>
+             <param name="messages"> A variable-length parameters list containing messages. </param>
+        </member>
+        <member name="M:SimpleFileLogging.SimpleFileLogger.LogV2(SimpleFileLogging.SimpleFileLogOptions,SimpleFileLogging.SimpleLogType,System.String[])">
+             <summary>   Logs. </summary>
+            
+             <remarks>   Msacli, 29.04.2019. </remarks>
+             
+             <param name="logOptions"></param>
+             <param name="logType"></param>
              <param name="messages"> A variable-length parameters list containing messages. </param>
         </member>
         <member name="M:SimpleFileLogging.SimpleFileLogger.GetLogFileName(SimpleFileLogging.SimpleLogType)">
@@ -267,6 +289,13 @@
             
              <remarks>   Msacli, 29.04.2019. </remarks>
         </member>
+        <member name="M:SimpleFileLogging.SimpleFileLogger.#ctor(SimpleFileLogging.Enums.SimpleLogDateFormats,System.Boolean)">
+             <summary>
+             Constructor that prevents a default instance of this class from being created.
+             </summary>
+            
+             <remarks>   Msacli, 29.04.2019. </remarks>
+        </member>
         <member name="M:SimpleFileLogging.SimpleFileLogger.LogError(System.Exception)">
             <summary>
             Logs exception details to error log file.
@@ -330,6 +359,19 @@
             
              <returns>   A string. </returns>
         </member>
+        <member name="T:SimpleFileLogging.Logging.SimpleLoggerStorage">
+            <summary>
+            SimpleLoggerStorage class. Stores ISimpleLogger instances.
+            </summary>
+        </member>
+        <member name="M:SimpleFileLogging.Logging.SimpleLoggerStorage.GetSimpleLogger(SimpleFileLogging.Enums.SimpleLogDateFormats,System.Boolean)">
+            <summary>
+            Gets the simple logger instance for given Log Date Format.
+            </summary>
+            <param name="logDateFormat">The log date format.</param>
+            <param name="enableMethodGrouping">if set to <c>true</c> [enable method grouping].</param>
+            <returns>Returns ISimpleLogger instance.</returns>
+        </member>
         <member name="T:SimpleFileLogging.SimpleFileLogOptions">
             <summary>
             Defining Logging Options
@@ -337,9 +379,16 @@
         </member>
         <member name="P:SimpleFileLogging.SimpleFileLogOptions.EnableMethodGrouping">
             <summary>
+            Gets or sets a value indicating whether EnableMethodGrouping
             Enables Method Grouping
             if it is true AssemblyFolder\ClassName\MethodName\Error-Info-Debug\logfile.
             else AssemblyFolder\Error-Info-Debug\ClassName\MethodName\logfile.
+            </summary>
+        </member>
+        <member name="P:SimpleFileLogging.SimpleFileLogOptions.ExcludeAssemblyInfo">
+            <summary>
+            Gets or sets the ExcludeAssemblyInfo
+            if true, assembly info will not be logged else will be logged.
             </summary>
         </member>
         <member name="T:SimpleFileLogging.SimpleLogType">

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qKsMIE9E/++69IoNxu9cWl0OqrQnqRviM71joz4qRCUTXGaM+SSU9DjqQsrhyTpLah+ryxkv1euBSw7EMlTrKw==",
+  "dgSpecHash": "cMQVVo9rqiHil2PYHrnkNBK4IdzqddOcSUST+zCb7XibcxhCh4bIW520cQG/ch5wzCysMAfsjL5d77E83oAU9g==",
   "success": true,
-  "projectFilePath": "D:\\Depo\\Git_Projects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Factory.Std\\SI.QueryHandler.Factory.Std.csproj",
+  "projectFilePath": "C:\\GitProjects\\SI.CQRS.Repository\\SI.CQRS.Sln\\NetCore\\SI.QueryHandler.Factory.Std\\SI.QueryHandler.Factory.Std.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\mst.dextercfg.dll\\1.3.0\\mst.dextercfg.dll.1.3.0.nupkg.sha512",
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simplefilelogging.dll\\2.4.0\\simplefilelogging.dll.2.4.0.nupkg.sha512",
-    "C:\\Users\\mustafa.sacli\\.nuget\\packages\\simpleinfra.common.response.dll\\1.3.0\\simpleinfra.common.response.dll.1.3.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\mst.dextercfg.dll\\1.3.0\\mst.dextercfg.dll.1.3.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\simplefilelogging.dll\\2.14.0\\simplefilelogging.dll.2.14.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\simpleinfra.common.response.dll\\1.3.0\\simpleinfra.common.response.dll.1.3.0.nupkg.sha512"
   ],
   "logs": [
     {
@@ -23,7 +23,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'SimpleFileLogging.dll 2.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'SimpleFileLogging.dll 2.14.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "SimpleFileLogging.dll",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
